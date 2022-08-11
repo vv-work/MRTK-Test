@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Tool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables", "Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj", "{98CDE88F-C4EE-FFF9-4DDA-11EFD521719F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9A413ECF-F8D1-4C92-26DC-65095EDFE8F4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Tools", "Microsoft.MixedReality.Toolkit.Tools.csproj", "{7664AC7E-C3E9-A1AB-DDF6-5050A8E40A4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.MSBuild", "Microsoft.MixedReality.Toolkit.MSBuild.csproj", "{BD0DC871-54EC-E2FE-19DD-29C85CE20F84}"
@@ -229,6 +231,10 @@ Global
 		{98CDE88F-C4EE-FFF9-4DDA-11EFD521719F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98CDE88F-C4EE-FFF9-4DDA-11EFD521719F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98CDE88F-C4EE-FFF9-4DDA-11EFD521719F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A413ECF-F8D1-4C92-26DC-65095EDFE8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A413ECF-F8D1-4C92-26DC-65095EDFE8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A413ECF-F8D1-4C92-26DC-65095EDFE8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A413ECF-F8D1-4C92-26DC-65095EDFE8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7664AC7E-C3E9-A1AB-DDF6-5050A8E40A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7664AC7E-C3E9-A1AB-DDF6-5050A8E40A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7664AC7E-C3E9-A1AB-DDF6-5050A8E40A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU

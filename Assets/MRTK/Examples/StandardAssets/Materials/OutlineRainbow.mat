@@ -12,7 +12,7 @@ Material:
   m_ShaderKeywords: _DISABLE_ALBEDO_MAP _ENVIRONMENT_COLORING _SMOOTH_NORMALS _VERTEX_EXTRUSION
     _VERTEX_EXTRUSION_SMOOTH_NORMAL _VERTEX_EXTRUSION_SMOOTH_NORMALS
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 1999
   stringTagMap:
@@ -37,11 +37,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlbedoAlphaMode: 0
     - _AlbedoAssignedAtRuntime: 0
     - _BlendOp: 0
-    - _BlendedClippingWidth: 1
+    - _BlendedClippingWidth: 3.23
     - _BorderLight: 0
     - _BorderLightOpaque: 0
     - _BorderLightOpaqueAlpha: 1
@@ -54,7 +55,7 @@ Material:
     - _ColorWriteMask: 15
     - _CullMode: 2
     - _CustomMode: 0
-    - _Cutoff: 0.5
+    - _Cutoff: 0.461
     - _DirectionalLight: 0
     - _DstBlend: 0
     - _EdgeSmoothingValue: 0.002
@@ -64,6 +65,7 @@ Material:
     - _EnableLocalSpaceTriplanarMapping: 0
     - _EnableNormalMap: 0
     - _EnableProximityLightColorOverride: 0
+    - _EnableSSAA: 0
     - _EnableTriplanarMapping: 0
     - _EnvironmentColorIntensity: 1
     - _EnvironmentColorThreshold: 3
@@ -74,6 +76,7 @@ Material:
     - _FluentLightIntensity: 1
     - _HoverLight: 0
     - _IgnoreZScale: 0
+    - _IndependentCorners: 0
     - _InnerGlow: 0
     - _InnerGlowPower: 4
     - _InstancedColor: 0
@@ -82,6 +85,7 @@ Material:
     - _IridescenceIntensity: 0.5
     - _IridescenceThreshold: 0.05
     - _Metallic: 0
+    - _MipmapBias: -2
     - _Mode: 5
     - _NearLightFade: 0
     - _NearPlaneFade: 0
@@ -130,3 +134,5 @@ Material:
     - _ProximityLightMiddleColorOverride: {r: 0, g: 1, b: 0, a: 0.5}
     - _ProximityLightOuterColorOverride: {r: 0, g: 0, b: 1, a: 1}
     - _RimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RoundCornersRadius: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_BuildTextureStacks: []

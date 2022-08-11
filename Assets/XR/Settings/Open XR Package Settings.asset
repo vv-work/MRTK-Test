@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: RuntimeDebuggerOpenXRFeature WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Runtime Debugger
+  version: 1
+  featureIdInternal: com.unity.openxr.features.runtimedebugger
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   required: 0
   cacheSize: 1048576
@@ -119,11 +119,11 @@ MonoBehaviour:
   m_Name: MicrosoftHandInteraction WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Microsoft Hand Interaction Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_MSFT_hand_interaction
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &-2386971763134741113
@@ -179,11 +179,11 @@ MonoBehaviour:
   m_Name: HTCViveControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: HTC Vive Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.htcvive
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &-1152020460171494785
@@ -199,11 +199,11 @@ MonoBehaviour:
   m_Name: KHRSimpleControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Khronos Simple Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.khrsimpleprofile
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &-1121032203038372904
@@ -451,11 +451,11 @@ MonoBehaviour:
   m_Name: MicrosoftMotionControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Microsoft Motion Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &3798693718642261957
@@ -511,11 +511,11 @@ MonoBehaviour:
   m_Name: EyeGazeInteraction WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Eye Gaze Interaction Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.eyetracking
+  openxrExtensionStrings: XR_EXT_eye_gaze_interaction
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &6203174514454639685
@@ -531,11 +531,11 @@ MonoBehaviour:
   m_Name: OculusTouchControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Oculus Touch Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.oculustouch
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &6780209037117715768
@@ -576,11 +576,11 @@ MonoBehaviour:
   m_Name: ValveIndexControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Valve Index Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.valveindex
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &7234566600062346037
@@ -616,11 +616,11 @@ MonoBehaviour:
   m_Name: ConformanceAutomationFeature WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Conformance Automation
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.conformance
+  openxrExtensionStrings: XR_EXT_conformance_automation
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &9113879169935819409
@@ -635,6 +635,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: WSA
   m_EditorClassIdentifier: 
-  features: []
+  features:
+  - {fileID: 7276241331827585710}
+  - {fileID: 5615871231478875359}
+  - {fileID: -1350984433884071072}
+  - {fileID: -1152020460171494785}
+  - {fileID: -4254380967982646517}
+  - {fileID: 3623081672395149855}
+  - {fileID: 6203174514454639685}
+  - {fileID: -8805645256063224891}
+  - {fileID: 6817330255728273930}
   m_renderMode: 1
   m_depthSubmissionMode: 0
