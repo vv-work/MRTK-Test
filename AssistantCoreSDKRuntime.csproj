@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Scripts\Runtime\Android\BaseAndriodConnectionImpl.cs" />
-    <Compile Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Scripts\Runtime\Utility\ArrayElementTitleAttribute.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Scripts\Runtime\Interfaces\IConnection.cs" />
+    <Compile Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Scripts\Runtime\Utility\ArrayElementTitleAttribute.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Scripts\Runtime\Android\AndroidServiceConnection.cs" />
   </ItemGroup>
   <ItemGroup>

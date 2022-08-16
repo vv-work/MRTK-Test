@@ -57,14 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Data\VoiceSDKDataCreation.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKStyles.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKMenu.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Upgrade\WitUpgrader.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\UnderstandingViewerWindow.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\SettingsWindow.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Inspectors\AppVoiceExperienceWitConfigurationEditor.cs" />
+    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKStyles.cs" />
+    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKMenu.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\WelcomeWizard.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Inspectors\AppVoiceExperienceEditor.cs" />
+    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Upgrade\WitUpgrader.cs" />
+    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\UnderstandingViewerWindow.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\AboutWindow.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKVersion.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\VoiceApplicationDetailProvider.cs" />
@@ -707,13 +707,13 @@
       <Project>{288DBBF8-E67F-10C4-B878-F41B13C7AE26}</Project>
       <Name>Facebook.Wit.TTS.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{19A4C67F-9D71-26C3-3B3C-7272B2673702}</Project>
-      <Name>UnityEditor.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{C925CAAC-333F-77DB-3B34-2CA18E1C3C77}</Project>
       <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{19A4C67F-9D71-26C3-3B3C-7272B2673702}</Project>
+      <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -77,8 +77,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\OpenXRConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\Features\Interactions\OculusTouchControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\OpenXRAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\Features\Interactions\EyeGazeInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\Features\OpenXRFeatureAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\Features\Interactions\EyeGazeInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\Features\Interactions\ValveIndexControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\Features\Interactions\MicrosoftMotionControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\Runtime\Features\Interactions\KHRSimpleControllerProfile.cs" />
