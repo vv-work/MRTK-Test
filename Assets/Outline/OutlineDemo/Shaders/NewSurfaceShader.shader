@@ -1,4 +1,4 @@
-Shader "VertexFragment/ExcludeFromOutline"
+Shader "Custom/NewSurfaceShader"
 {
     Properties
     {
@@ -9,9 +9,7 @@ Shader "VertexFragment/ExcludeFromOutline"
     }
     SubShader
     {
-        // SEE HERE: This is a standard surface shader except for the "Disable Outlines" tag.
-        // This signifies that the occlusion camera should render it to its depth buffer.
-        Tags {  "Queue" = "Transparent" "RenderType"="Opaque" "DisableOutlines" = "True" }
+        Tags { "RenderType"="Opaque" }
         LOD 200
 
         CGPROGRAM
