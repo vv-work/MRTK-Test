@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: transparent
   m_Shader: {fileID: 4800000, guid: 5ca0c478905ee8f4394233e8d01b5ee7, type: 3}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -72,21 +72,21 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _FlickerSpeed: 0.01
     - _Fold: 1
     - _FresnelPower: 0.16
     - _GlitchIntensity: 0
     - _GlitchSpeed: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.149
     - _GlossyReflections: 1
     - _GlowSpeed: 1
     - _GlowTiling: 0.05
     - _HandAlpha: 1
     - _Metallic: 0
     - _MinVisibleAlpha: 0.15
-    - _Mode: 3
+    - _Mode: 0
     - _NormalxValue: 1
     - _OcclusionStrength: 1
     - _OutlineWidth: 0.01155
@@ -102,10 +102,10 @@ Material:
     - _TopExponent: 0.5
     - _UVSec: 0
     - _Width: 2
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
     - _BottomColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Color: {r: 0, g: 0.380392, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorBottom: {r: 0.0137021, g: 0.014443799, b: 0.0152085, a: 1}
     - _ColorPrimary: {r: 0.39607796, g: 0.72549, b: 1, a: 1}
     - _ColorTop: {r: 0.031896, g: 0.0343398, b: 0.0368894, a: 1}
