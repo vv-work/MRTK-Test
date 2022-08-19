@@ -253,8 +253,8 @@
     <Compile Include="Assets\Oculus\Platform\Samples\VrVoiceChat\Scripts\P2PManager.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\MatchmakingOptions.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\ApplicationVersion.cs" />
-    <Compile Include="Assets\Oculus\Platform\Scripts\Models\MicrophoneAvailabilityState.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\PeerConnectionState.cs" />
+    <Compile Include="Assets\Oculus\Platform\Scripts\Models\MicrophoneAvailabilityState.cs" />
     <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\GoalMover.cs" />
     <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\FlyText.cs" />
     <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\Player.cs" />

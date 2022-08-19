@@ -60,8 +60,8 @@
     <Compile Include="Assets\MRTK\SDK\Editor\Inspectors\Exp\InteractiveEl\StateSelectionMenu.cs" />
     <Compile Include="Assets\MRTK\SDK\Editor\Inspectors\Exp\InteractiveEl\InteractiveElementInspector.cs" />
     <Compile Include="Assets\MRTK\SDK\Editor\Inspectors\Exp\InteractiveEl\BaseInteractiveElementInspector.cs" />
-    <Compile Include="Assets\MRTK\SDK\Editor\Inspectors\Exp\InteractiveEl\StateVisualizerInspector.cs" />
     <Compile Include="Assets\MRTK\SDK\Editor\Inspectors\Exp\InteractiveEl\AssemblyInfo.cs" />
+    <Compile Include="Assets\MRTK\SDK\Editor\Inspectors\Exp\InteractiveEl\StateVisualizerInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MRTK\SDK\Editor\Inspectors\Exp\InteractiveEl\MRTK.SDK.Editor.Experimental.Interactive.asmdef" />

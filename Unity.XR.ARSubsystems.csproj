@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EC194499-DB53-2858-6493-82C696E7A295}</ProjectGuid>
+    <ProjectGuid>{39E7433A-4C17-BF7C-2918-7592544ED02B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Microsoft.MixedReality.Toolkit.SDK</AssemblyName>
+    <AssemblyName>Unity.XR.ARSubsystems</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -56,322 +56,111 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\InputRecordingControls.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\PhysicalPressEventRouter.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableTextureTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnToggleReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\LinksConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\VisualUtils.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\InteractiveMeshCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ServiceManagers\Diagnostics\Scripts\DiagnosticsSystemManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\ReleaseBehaviorTypeExtensions.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\RadialView.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ServiceManagers\Boundary\Scripts\BoundarySystemManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Elastic\Scripts\IElasticSystem.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\PinchSliderBox\PinchSliderBox.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\LinePointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundCorners.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\AppBar\AppBarButton.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\SpherePointerVisual.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeDefinition.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnHoldReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Buttons\ButtonIconStyle.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Elastic\Scripts\ElasticTypes.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnFocusReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\SliderInputField.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboardPreview\MixedRealityKeyboardPreview.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\ParabolicTeleportPointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\DefaultPrimaryPointerSelector.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ServiceManagers\Input\Scripts\InputSystemManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Features\Utilities\StabilizationPlaneModifier.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Dock\Dockable.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect\ProximityEffectConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Slate\HandInteractionPanZoom.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeEaseSettings.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Smoothing.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\ManipulationHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dialog\DialogResult.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\RiggedHandVisualizer\RiggedHandVisualizer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\ObjectManipulator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\CapsLockHighlight.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipConnector.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\HandCoach\HandInteractionHint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Dock\DockingState.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonLayout.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Events\InputActionUnityEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\GGVPointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\PulseShader\PulseShaderHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\ITransformSmoothingLogic.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\BaseMousePointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnClickReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Joystick\JoystickController.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\DictationHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeStateProperty.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\MixedRealityKeyboardBase.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\AnimatedCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\TileGridObjectCollection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\States\InteractableStates.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableMaterialTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\SpherePointerGrabPoint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\TwoHandRotateLogic.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundingBox\IBoundsTargetProvider.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableThemeBase.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\CurvePointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Events\HandPanEventData.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\TMP_KeyboardInputField.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\HandCoach\RotateAroundPoint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ToolTipAttachPoint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\Easing.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBackgroundSizeOffset.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\PerAxisHandles.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FixedRotationToWorldConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\PulseShader\PulseShaderHandMeshHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\PointerClickHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\ConstraintManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\NonNativeKeyboard.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\CursorModifier.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\RotationHandlesConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\CursorContextObjectManipulator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\TouchHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\UI_KeyboardInputField.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\IToolTipBackground.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\VisualProfile.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\PulseShader\PulseShaderSpatialMeshHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\SpatialMeshExporter.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\FeaturesPanelVisuals.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\DestroyOnAnimationComplete.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Audio\Influencers\AudioLoFiEffect.cs" />
-    <Compile Include="Assets\MRTK\SDK\AssemblyInfo.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\ScaleHandles.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect\IProximityEffectObjectProvider.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\KeyboardValueKey.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\UnityUI\ColorChangerUnityUI.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\Solver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\States\States.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\Overlap.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableGrabScaleTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\MoveAxisConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FixedRotationToUserConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\ToggleHandVisualisation.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Buttons\ButtonIconSet.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorLoadingBar.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ServiceManagers\Support\Scripts\BaseServiceManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\MixedRealityKeyboard.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Interactable.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\MRTKTMPInputField.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\ObjectCollectionNode.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\DefaultPointerMediator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\PrefabSpawner.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableReceiverList.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Dock\DockPosition.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\SpeechConfirmationTooltip.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemePropertyValueTypes.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\RotationHandles.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableOffsetTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Simulation\InteractablePointerSimulator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorPivotMode.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\PerAxisHandlesConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\ObjectOrientationSurfaceType.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutAlignment.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Controllers\WindowsMixedRealityControllerVisualizer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dwell\DwellHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Controllers\MixedRealityControllerVisualizer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\RotationAxisConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorState.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeProperty.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\ReceiverBaseMonoBehavior.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FixedDistanceConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\BoundsControlTypes.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ScrollingObjectCollection\ScrollingObjectCollectionNode.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\HandConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\MinMaxScaleConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Events\TouchEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\TeleportCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Buttons\ButtonConfigHelper.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\MRTKUGUIInputField.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\PinchSliderBox\PinchSpring.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\SpatialAwareness\SurfaceMeshesToPlanes.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dwell\ToggleDwellPressableButton.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\Billboard.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBorder.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dwell\DwellUnityEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\PointerBehaviorControls.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dialog\DialogShell.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Features\Utilities\WorldAnchorManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\ProximityEffect\ProximityEffect.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundingBox\BoundingBox.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\SubmitEventRouter.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FaceUserConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Links.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\TranslationHandlesConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\IToolTipHighlight.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\ConstraintExecOrderComparer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\PokePointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\ReorientContent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\InputSimulationIndicators.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\States\State.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\InputRayUtils.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\MaintainApparentSizeConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\HandConstraintPalmUp.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\BaseEyeFocusHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\BoxDisplayConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\UIMaterialInstantiator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\SurfaceMagnetism.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundMesh.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ColorPicker\ColorPicker.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Elastic\Scripts\ElasticsManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBackgroundSize.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\HeadPositionOffset.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableActivateTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\TwoHandScaleLogic.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\BaseFocusHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\States\BaseStateModel.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ScrollingObjectCollection\ScrollingObjectCollection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dwell\DwellStateType.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\BaseControllerPointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\SpeechInputHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\MousePointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\SymbolKeyboard.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\SpherePointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableShaderTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\ControllerPoseSynchronizer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\BoundsControl.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\InteractableToggleCollection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Events\ManipulationEventData.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Elastic\Scripts\LinearElasticSystem.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\GazeHandHelper.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnGrabReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\RectTransformCubeScaler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\TransformConstraint.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonSizeOffset.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\Theme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\PointerHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Elastic\Scripts\VolumeElasticSystem.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableRotationTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ServiceManagers\Teleport\Scripts\TeleportSystemManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Elastic\Scripts\QuaternionElasticSystem.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\KeyboardInputFieldBase.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\HandlesBase.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\ScreenSpaceMousePointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipLineHighlight.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundingBox\BoundingBoxHelper.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Elastic\Scripts\ElasticConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\TapToPlace.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\InBetween.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\ScaleHandlesConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\InputActionHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\InteractableHighlight.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorObjectDisplay.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dialog\Dialog.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\SpriteCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Selection\SelectionModes.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableAudioReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderEventData.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\TeleportHotspot.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dwell\BaseDwellPressableButton.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderAxis.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dialog\DialogButtonType.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\KeyboardKeyFunc.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Events\PanUnityEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableColorTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorPivotDirection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\LRUCache.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\Configuration\HandlesBaseConfiguration.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\TouchPointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Joystick\JoystickMode.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\ControllerFinder.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Sliders\PinchSlider.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\BaseObjectCollection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnPressReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\PressableButtonHoloLens2.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\ScatterObjectCollection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutOrder.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderSounds.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\IProgressIndicator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\AppBar\AppBar.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\BaseCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\MeshCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Profile\InteractableProfileItem.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Audio\Influencers\AudioInfluencerController.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableAudioTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorFollowType.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Audio\TextToSpeech.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\EyeTrackingTarget.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutAnchor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\SymbolDisableHighlight.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\BaseInputHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\DisplayMode.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\ObjectCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipUtility.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Controllers\MixedRealityControllerInfo.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\FocusHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Collections\GridObjectCollection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\DirectionalIndicator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Events\PointerUnityEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Loader\LoaderController.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Audio\Influencers\AudioOccluder.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\NonNativeKeyboardTouchAssistant.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonSize.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\ReceiverBase.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\ConstantViewSize.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipSpawner.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dialog\DialogButton.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ServiceManagers\Camera\Scripts\CameraSystemManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Audio\Influencers\AudioLoFiSourceQuality.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Profiles\Dwell\DwellProfile.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\DefaultTransformSmoothingLogic.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundBlob.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonCollider.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\CursorContextInfo.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\ManipulationMoveLogic.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\PressableButton.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\Momentum.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\ShellHandRayPointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Events\ManipulationEvent.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\Orbital.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnTouchReceiver.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\UICollection.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorOrientType.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableAnimatorTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\ConstraintUtils.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableScaleTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\SolverHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\BoxDisplay.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorOrbsRotator.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Pointers\TeleportPointer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\ScaleOffsetColorTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\AxisSlider.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\Dock\Dock.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\BoundsControl\Visuals\TranslationHandles.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\ServiceManagers\SpatialAwareness\Scripts\SpatialAwarenessSystemManager.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTip.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Cursors\FingerCursor.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dialog\DialogState.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\Solvers\Follow.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableThemeShaderUtils.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Slate\FollowMeToggle.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\HandCoach\MoveToTarget.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Utilities\PointerUtils.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\CursorContextManipulationHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableColorChildrenTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemePropertyValue.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\IInteractableHandler.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableStringTheme.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Utilities\InteractableOnFocus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\RaycastSubsystem\XRRaycastHit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ParticipantSubsystem\XRParticipant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\Promise.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\TrackingSubsystem\TrackableChanges.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\HashCode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\AnchorSubsystem\XRReferencePointSubsystem.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\SessionSubsystem\SessionInstallationStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\RaycastSubsystem\XRRaycastSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\AddReferenceImageJobState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\HelpUrls.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\FaceSubsystem\XRFace.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRCpuImage\Plane.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\XRCameraIntrinsics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRCpuImage\AsyncConversionStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\DepthSubsystem\XRPointCloudData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\PlaneTracking\XRPlaneSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\XRCameraFrame.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CpuImageFormat.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\XRReferenceImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ObjectTrackingSubsystem\XRReferenceObjectLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\HumanBodySubsystem\XRHumanBodySubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\PlaneTracking\PlaneClassification.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\AddReferenceImageJobStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\AnchorSubsystem\XRAnchorSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\SerializableGuid.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\XRTrackedImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\AnchorSubsystem\XRReferencePoint.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\SessionSubsystem\SessionAvailability.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\PlaneTracking\PlaneDetectionMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\XRImageTrackingSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\FaceSubsystem\XRFaceMesh.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\NativeCopyUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\Configuration\DefaultConfigurationChooser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\LightEstimationMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\Configuration\ConfigurationDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\Configuration\Feature.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\OcclusionSubsystem\XROcclusionSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\RuntimeReferenceImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\IReferenceImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\DepthSubsystem\XRPointCloud.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\GuidUtil.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ParticipantSubsystem\XRParticipantSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRCpuImage\XRCpuImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\XRReferenceImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\SessionSubsystem\XRSessionSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRTextureDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\XRCameraSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\TrackingState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\DepthSubsystem\XRDepthSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRCpuImage\Transformation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\HumanBodySubsystem\XRHumanBody.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRCpuImage\ConversionParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\HumanBodySubsystem\XRHumanBodyJoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\PlaneTracking\PlaneAlignment.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\NotTrackingReason.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRCpuImage\Api.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\CameraFocusMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\RaycastSubsystem\XRRaycastSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\FaceSubsystem\XRFaceSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\AnchorSubsystem\XRReferencePointSubsystemDescriptor.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\PlaneTracking\BoundedPlane.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRCpuImage\AsyncConversion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbe.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\SessionSubsystem\XRSessionSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\PlaneTracking\XRPlaneSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\AnchorSubsystem\XRAnchorSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\HumanBodySubsystem\XRHumanBodyPose2DJoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ParticipantSubsystem\XRParticipantSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\TrackingSubsystem\ValidationUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\OcclusionSubsystem\HumanSegmentationStencilMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\XRCameraParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\FaceSubsystem\XRFaceSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\AnchorSubsystem\XRAnchor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\TrackableId.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\SessionSubsystem\XRSessionUpdateParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\RaycastSubsystem\TrackableType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ObjectTrackingSubsystem\XRReferenceObject.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\TrackingSubsystem\TrackingSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\XRCameraSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ScopedProfiler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\OcclusionSubsystem\XROcclusionSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\RaycastSubsystem\XRRaycast.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\TrackingSubsystem\ITrackable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\DepthSubsystem\XRDepthSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\InputSubsystem\HandheldARInputDevice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\OcclusionSubsystem\EnvironmentDepthMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbeSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\Configuration\ConfigurationChooser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\CameraSubsystem\XRCameraConfiguration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ObjectTrackingSubsystem\XRTrackedObject.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\OcclusionSubsystem\HumanSegmentationDepthMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ObjectTrackingSubsystem\XRReferenceObjectEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\XRSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\HumanBodySubsystem\XRHumanBodySubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\Configuration\Configuration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\XRImageTrackingSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\ImageTrackingSubsystem\MutableRuntimeReferenceImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\OcclusionSubsystem\OcclusionPreferenceMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbeSubsystemDescriptor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\MRTK\SDK\StandardAssets\Shaders\FingerTipCursor.shader" />
-    <None Include="Assets\MRTK\SDK\Version.txt" />
-    <None Include="Assets\MRTK\SDK\StandardAssets\Shaders\SR_Triangles_Object_Space.shader" />
-    <None Include="Assets\MRTK\SDK\StandardAssets\Shaders\SR_Triangles.shader" />
-    <None Include="Assets\MRTK\SDK\Features\UX\Materials\HandCoach\Teaching_Hand2.shader" />
-    <None Include="Assets\MRTK\SDK\MRTK.SDK.asmdef" />
-    <None Include="Assets\MRTK\SDK\Features\UX\Materials\Teleport\License.txt" />
-    <None Include="Assets\MRTK\SDK\StandardAssets\Shaders\HandTriangles.shader" />
-    <None Include="Assets\MRTK\SDK\License.txt" />
+    <None Include="Library\PackageCache\com.unity.xr.arsubsystems@4.1.7\Runtime\Unity.XR.ARSubsystems.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -979,33 +768,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{DBF9EA0E-B6DD-CEB6-1BA4-2A9F4E879EFB}</Project>
-      <Name>Microsoft.MixedReality.Toolkit</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{EBB93571-57AD-BB34-6102-3125496472A0}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Async</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{90976FD1-1CE9-5771-C9C0-35B72EC1958B}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
-      <Project>{8DC645B0-AF60-8A92-CCD4-4D09D83AD957}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
-      <Project>{24A47668-BB81-4EDF-23F1-06F97CB56FBB}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
-      <Project>{2077B2DF-4EDF-1999-2AEC-571820C0B6DA}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{B1BD080C-B7B5-54BA-B9C7-C96ECAEACF6D}</Project>
-      <Name>Unity.TextMeshPro</Name>
+    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
+      <Project>{8C85B8FF-9007-F439-5139-78095A26D82C}</Project>
+      <Name>Unity.Subsystem.Registration</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

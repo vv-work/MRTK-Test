@@ -97,8 +97,8 @@
     <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\General\Scripts\Targeting\TargetEventArgs.cs" />
     <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\DemoVisualizer\Scripts\ParticleHeatmapParticleData.cs" />
     <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\GrabReleaseDetector.cs" />
-    <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\ScrollRectTransf.cs" />
     <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\TargetMoveToCamera.cs" />
+    <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\ScrollRectTransf.cs" />
     <Compile Include="Assets\MRTK\Examples\Common\Scripts\Toggle\ToggleSpatialMeshVisualization.cs" />
     <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputRecorder.cs" />
     <Compile Include="Assets\MRTK\Examples\Demos\EyeTracking\DemoVisualizer\Scripts\LogStructureEyeGaze.cs" />
