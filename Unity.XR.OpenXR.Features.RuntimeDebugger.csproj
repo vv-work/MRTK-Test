@@ -56,15 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\RuntimeDebuggerOpenXRFeature.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\DebuggerState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\RuntimeDebuggerOpenXRFeature.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\DebuggerState.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\universalwindows\arm64\openxr_runtime_debugger.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\windows\x64\openxr_runtime_debugger.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\Unity.XR.OpenXR.Features.RuntimeDebugger.asmdef" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\universalwindows\x64\openxr_runtime_debugger.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\universalwindows\arm32\openxr_runtime_debugger.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\Unity.XR.OpenXR.Features.RuntimeDebugger.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\universalwindows\arm32\openxr_runtime_debugger.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\universalwindows\arm64\openxr_runtime_debugger.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\windows\x64\openxr_runtime_debugger.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\universalwindows\x64\openxr_runtime_debugger.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

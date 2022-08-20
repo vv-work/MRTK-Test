@@ -684,6 +684,10 @@
       <Project>{EBB93571-57AD-BB34-6102-3125496472A0}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.csproj">
+      <Project>{EBC2E1EE-A943-E726-A1D3-5BCBB4C9AFEC}</Project>
+      <Name>Unity.XR.ARFoundation</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{6A4AD146-E9F8-FCAF-47BE-412D90BA1AC4}</Project>
       <Name>UnityEngine.SpatialTracking</Name>

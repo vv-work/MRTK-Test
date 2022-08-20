@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\Editor\RuntimeDebuggerWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\Editor\RuntimeDebuggerOpenXRFeatureEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\Editor\RuntimeDebuggerWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\Editor\RuntimeDebuggerOpenXRFeatureEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\RuntimeDebugger\Editor\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\RuntimeDebugger\Editor\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -687,6 +687,10 @@
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
       <Project>{2B428E68-4B64-1F32-1F1F-EC134FFE9B18}</Project>
       <Name>Unity.XR.OpenXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
+      <Project>{50E03323-D6FB-EE08-6CF5-4C2ACD94A1F6}</Project>
+      <Name>Unity.XR.OpenXR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{19A4C67F-9D71-26C3-3B3C-7272B2673702}</Project>

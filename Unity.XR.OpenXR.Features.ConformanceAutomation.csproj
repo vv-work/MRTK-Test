@@ -56,15 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\ConformanceAutomation\HelperTypes.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\ConformanceAutomation\ConformanceAutomationFeature.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\ConformanceAutomation\ConformanceAutomationFeature.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\ConformanceAutomation\windows\x64\ConformanceAutomationExt.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\ConformanceAutomation\universalwindows\arm64\ConformanceAutomationExt.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\ConformanceAutomation\universalwindows\arm32\ConformanceAutomationExt.dll" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\ConformanceAutomation\Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef" />
-    <None Include="Library\PackageCache\com.unity.xr.openxr@1.1.1\ConformanceAutomation\universalwindows\x64\ConformanceAutomationExt.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\ConformanceAutomation\universalwindows\arm64\ConformanceAutomationExt.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\ConformanceAutomation\windows\x64\ConformanceAutomationExt.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\ConformanceAutomation\Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\ConformanceAutomation\universalwindows\x64\ConformanceAutomationExt.dll" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\ConformanceAutomation\universalwindows\arm32\ConformanceAutomationExt.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
