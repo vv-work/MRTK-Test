@@ -66,6 +66,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\FeatureSupport\OpenXRFeatureBuildHooks.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\FeatureSupport\KnownFeatureSets.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\FeatureSupport\OpenXRLoaderUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\FeatureSupport\OpenXRFeatureSettingsEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\FeatureSupport\OpenXRFeatureEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\OpenXRRuntimeSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\OpenXRProjectValidationRulesSetup.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\FeatureSupport\OpenXRFeatureSetManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\OpenXREditorSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\PackageSettingsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\FeatureSupport\OpenXRFeatureSettingsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Editor\Unity.XR.OpenXR.Editor.asmdef" />

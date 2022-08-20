@@ -56,12 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\SceneUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\AROcclusionManagerEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\ARSceneValidator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\ARSessionEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\PlaneDetectionModeAttributeDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\ARSessionEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\ARCameraBackgroundEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\SceneUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\ARSceneValidator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\AROcclusionManagerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.arfoundation@4.1.7\Editor\Unity.XR.ARFoundation.Editor.asmdef" />

@@ -59,6 +59,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\input\OpenXRInput.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\input\OpenXRHmd.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\OpenXRSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\input\HapticControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\OpenXRLoaderInternal.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\OpenXRDiagnosticReport.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\Features\Interactions\MicrosoftHandInteraction.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\Features\Interactions\MicrosoftMotionControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\Features\Interactions\KHRSimpleControllerProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\Features\OpenXRFeatureInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\OpenXRNativeTypes.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\input\OpenXRDevice.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\OpenXRProjectValidation.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\Features\Interactions\HTCViveControllerProfile.cs" />
@@ -83,8 +85,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\OpenXRAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\Features\Interactions\EyeGazeInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\Features\Interactions\ValveIndexControllerProfile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\OpenXRNativeTypes.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\input\HapticControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.openxr@1.4.2\Runtime\windows\x64\UnityOpenXR.dll" />
