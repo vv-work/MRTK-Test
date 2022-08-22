@@ -13,16 +13,17 @@
 		//ColorMask 0
 		//ZWrite On
 
-		Tags {  "Queue" = "Geometry"  "RenderType" = "Opaque" "IgnoreProjector" = "True" "DisableOutlines" = "True" }
+		Tags {  "RenderType" = "Opaque" "IgnoreProjector" = "True" "DisableOutlines" = "False" }
 
 		LOD 200
-		ColorMask 0
-		ZWrite On
-			Lighting Off
-			Fog { Mode Off }
+
+//		ColorMask 0
+//		ZWrite On
+//			Lighting Off
+//			Fog { Mode Off }
 
 		//	Blend SrcAlpha OneMinusSrcAlpha
-		Pass { }
+		//Pass { }
 		CGPROGRAM
 	//	#pragma surface surf Lambert alpha
         #pragma surface surf Standard fullforwardshadows
@@ -40,7 +41,7 @@
 		o.Albedo = c.rgb;
             o.Metallic = _Metallic;
             o.Smoothness = _Glossiness;
-		o.Alpha = c.a;            // Albedo comes from a texture tinted by color
+		o.Alpha = 0;//c.a;            // Albedo comes from a texture tinted by color
 
 		}
 		ENDCG
