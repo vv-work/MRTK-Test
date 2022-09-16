@@ -108,3 +108,13 @@ The layer that should
 
 Made fragmented shader
 It's quite obvious that I need to change Post processing input to get result that I want
+
+```ShaderLab
+
+    sampler2D _MainTex;
+    sampler2D _CameraDepthTexture;
+    sampler2D _CameraGBufferTexture2;
+    sampler2D _OcclusionDepthMap;
+```
+
+VertMain vs FragMain

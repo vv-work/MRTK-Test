@@ -94,10 +94,12 @@ Shader "VertexFragment/SobelOutlineCg"
 
                 float occlusion = SobelSample(_OcclusionDepthMap, input.texcoord.xy, offset);
 
+                
                 if (occlusion > 0.0)
                 {
                     return float4(sceneColor, 1.0);
                 }
+               
 
                 // -------------------------------------------------------------------------
                 // Fade out the outline for distant objects.

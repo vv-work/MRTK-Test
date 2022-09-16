@@ -34,6 +34,8 @@ namespace VertexFragment
 
         protected void Start()
         {
+            Debug.Log($"I am working");
+
             if (ReplacementShader == null)
             {
                 ReplacementShader = Shader.Find("VertexFragment/OutlineOcclusion");
