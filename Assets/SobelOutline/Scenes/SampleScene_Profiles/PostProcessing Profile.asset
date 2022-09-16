@@ -80,7 +80,7 @@ MonoBehaviour:
     value: 1
   thickness:
     overrideState: 1
-    value: 1
+    value: 2
   depthMultiplier:
     overrideState: 0
     value: 1
@@ -95,4 +95,4 @@ MonoBehaviour:
     value: 5
   color:
     overrideState: 1
-    value: {r: 1, g: 1, b: 1, a: 1}
+    value: {r: 0.3112616, g: 0.9622642, b: 0.18519042, a: 1}
