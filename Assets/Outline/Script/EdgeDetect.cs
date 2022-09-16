@@ -173,8 +173,8 @@ public class EdgeDetect : MonoBehaviour {
 
         if (cam != null)
         {
-            //CameraSetL.SetupCameras();
-            //CameraSetR.SetupCameras();
+            CameraSetL.SetupCameras();
+            CameraSetR.SetupCameras();
         }
       
     }
