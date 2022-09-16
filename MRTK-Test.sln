@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Tool
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.OculusQuestSupport", "Unity.XR.OpenXR.Features.OculusQuestSupport.csproj", "{DC1C69A1-3C7C-8BC5-522F-C33F092552B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.MockHMD", "Unity.XR.MockHMD.csproj", "{609E31D5-FA2B-482B-71A6-28839ED5989F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Editor.Inspectors", "Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj", "{761E5E2C-A327-7ECF-373A-53C8FE39334A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Editor", "Unity.XR.OpenXR.Editor.csproj", "{50E03323-D6FB-EE08-6CF5-4C2ACD94A1F6}"
@@ -168,6 +170,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Features.OculusQuestSupport.Editor", "Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.csproj", "{A80801AE-343E-0241-F6C2-5F3C82054CA6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors", "Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj", "{3BB36A6E-B9A9-DD48-7755-FB58F08038EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.MockHMD.Editor", "Unity.XR.MockHMD.Editor.csproj", "{566922C2-43D6-0E1C-7117-86983BC6DB13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -359,6 +363,10 @@ Global
 		{DC1C69A1-3C7C-8BC5-522F-C33F092552B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC1C69A1-3C7C-8BC5-522F-C33F092552B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC1C69A1-3C7C-8BC5-522F-C33F092552B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609E31D5-FA2B-482B-71A6-28839ED5989F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609E31D5-FA2B-482B-71A6-28839ED5989F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609E31D5-FA2B-482B-71A6-28839ED5989F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609E31D5-FA2B-482B-71A6-28839ED5989F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{761E5E2C-A327-7ECF-373A-53C8FE39334A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{761E5E2C-A327-7ECF-373A-53C8FE39334A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{761E5E2C-A327-7ECF-373A-53C8FE39334A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -511,6 +519,10 @@ Global
 		{3BB36A6E-B9A9-DD48-7755-FB58F08038EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB36A6E-B9A9-DD48-7755-FB58F08038EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB36A6E-B9A9-DD48-7755-FB58F08038EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566922C2-43D6-0E1C-7117-86983BC6DB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566922C2-43D6-0E1C-7117-86983BC6DB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566922C2-43D6-0E1C-7117-86983BC6DB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566922C2-43D6-0E1C-7117-86983BC6DB13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

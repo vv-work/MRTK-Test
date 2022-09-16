@@ -126,6 +126,8 @@ public class EdgeDetect : MonoBehaviour {
             width = source.width;
             height = source.height;
         } else {
+            Debug.Log($"Active eye is {cam.stereoActiveEye}");
+
             Graphics.Blit(depthTexture, edgeTexture, edgeDetectMat);
             Graphics.Blit(source, destination, edgeCombineMat);
         }
