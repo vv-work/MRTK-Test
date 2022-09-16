@@ -9,8 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MRTK_Pulse_SpatialMeshBlue
   m_Shader: {fileID: 4800000, guid: c31d23be78a0c7d438feb3d0305a7707, type: 3}
-  m_ShaderKeywords: USE_ALBEDO_TEXTURE _ALPHABLEND_ON _COLOR_MAP_ENABLE_ _COLOR_MAP_ENABLE__ON
-    _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _PULSE_ENABLED__ON _RIM_LIGHT _UNITY_TO_SRGB__ON
+  m_ShaderKeywords: USE_ALBEDO_TEXTURE _ALPHABLEND_ON _AUTO_PULSE__ON _COLOR_MAP_ENABLE_
+    _COLOR_MAP_ENABLE__ON _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _PULSE_ENABLED__ON
+    _RIM_LIGHT _UNITY_TO_SRGB__ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -27,7 +28,7 @@ Material:
     m_Ints: []
     m_Floats:
     - USE_ALBEDO_TEXTURE: 1
-    - _Auto_Pulse_: 0
+    - _Auto_Pulse_: 1
     - _Color_Center_: 0.4
     - _Color_Leading_Fuzz_: 1
     - _Color_Map_Enable_: 1
@@ -39,7 +40,7 @@ Material:
     - _Fill_Start_Time_: 0.5
     - _Filter_Width_: 1.5
     - _Flip_V_: 0
-    - _Intensity_: 1.38
+    - _Intensity_: 3.54
     - _Line_End_Time_: 0.5
     - _Line_Width_: 0.5
     - _Line_Width_Fade_: 0.25
@@ -49,7 +50,7 @@ Material:
     - _Max_Out_Angle_: 0.4
     - _Noise_Frequency_: 40.5
     - _Period_: 5
-    - _Pulse_: 0
+    - _Pulse_: 0.829
     - _Pulse_Amplify_Leading_: 0
     - _Pulse_Color_Width_: 1
     - _Pulse_Enabled_: 1
@@ -69,5 +70,5 @@ Material:
     m_Colors:
     - _Fill_Color_: {r: 0.36320752, g: 0.8691418, b: 1, a: 1}
     - _Line_Color_: {r: 0, g: 0.14628828, b: 0.8679245, a: 1}
-    - _Pulse_Origin_: {r: 0.9785681, g: -0.1785705, b: -0.10364497, a: 0}
+    - _Pulse_Origin_: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

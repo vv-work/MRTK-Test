@@ -140,6 +140,7 @@ Shader "VertexFragment/SobelOutlineCg"
                 color = lerp(sceneColor, outlineColor, sobelOutline);
 
                 return float4(color, 1.0);
+                
             }
 
             ENDCG
