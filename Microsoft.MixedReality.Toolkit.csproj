@@ -294,8 +294,8 @@
     <Compile Include="Assets\MRTK\Core\Extensions\Color32Extensions.cs" />
     <Compile Include="Assets\MRTK\Core\Interfaces\InputSystem\IMixedRealityMouseDeviceManager.cs" />
     <Compile Include="Assets\MRTK\Core\Utilities\WindowsDevicePortal\DataStructures\DeviceInfo.cs" />
-    <Compile Include="Assets\MRTK\Core\Services\BaseDataProviderAccessCoreSystem.cs" />
     <Compile Include="Assets\MRTK\Core\Definitions\InputSystem\MixedRealityInputActionRulesProfile.cs" />
+    <Compile Include="Assets\MRTK\Core\Services\BaseDataProviderAccessCoreSystem.cs" />
     <Compile Include="Assets\MRTK\Core\EventDatum\Input\SpeechEventData.cs" />
     <Compile Include="Assets\MRTK\Core\Definitions\Physics\ComparableRaycastResult.cs" />
     <Compile Include="Assets\MRTK\Core\Interfaces\InputSystem\IMixedRealityTouchPointer.cs" />

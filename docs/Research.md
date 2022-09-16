@@ -57,6 +57,7 @@ Cull Off ZWrite Off ZTest Always
 I think understanding of those things is crutial thing to my success
 
 There ar also
+
 ```ShaderLab
 #pragma vertex VertMain
 #pragma fragment FragMain
@@ -82,14 +83,19 @@ Have a little bit sicking for actions
 
 I noticed such variable:
 
-`sambpler2D` _CameraGBufferTexture2
+`sambpler2D _CameraGBufferTexture2`
 
 And it looks like it could be solution to my problem
 
 remove HMD loader from manifest json
 
 ```json
-
-https://graphics.pixar.com/library/ToonRendering/paper.pdf
-
+"com.unity.xr.mock-hmd": "1.3.0-preview.1",
 ```
+
+
+> 9/16/22 03:41:45 AM
+
+Vertex Shader is working
+
+It looks like the key is invisible vertex shader.
