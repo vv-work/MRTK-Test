@@ -1,31 +1,39 @@
+﻿using System;
 using UnityEngine;
 
-public class CameraEyeComponent : MonoBehaviour
+namespace Assets
 {
-
-
-    public RenderTexture MainTexture;
- 
-    private void OnEnable()
+    public class CameraEyeComponent:MonoBehaviour
     {
 
-        if (_cam == null) 
-            _cam = GetComponent<Camera>();
-        //_cam.ResetStereoProjectionMatrices();
+        public RenderTexture TextureR; 
+        public RenderTexture TextureL;
+        public Camera Cam;
+
+
+        private void Awake()
+        {
+            Cam = GetComponent<Camera>();
+        } 
+        public void SetTextures(RenderTexture l, RenderTexture r)
+        {
+            TextureL = l;
+            TextureR = r;
+
+        }
+
+
+        private void OnRenderImage(RenderTexture src, RenderTexture dest)
+        {
+            var  monoOrStereoscopicEye = Cam.stereoActiveEye;
+         if (monoOrStereoscopicEye == Camera.MonoOrStereoscopicEye.Left)
+        {
+            Graphics.Blit(src,TextureL);
+        }
+        else if (monoOrStereoscopicEye == Camera.MonoOrStereoscopicEye.Right)
+        { 
+            Graphics.Blit(src,TextureR);
+        }
+        }
     }
-
-    private void OnRenderImage(RenderTexture src, RenderTexture dest)
-    {
-        if (_cam == null)
-            _cam = GetComponent<Camera>();
-        Debug.Log($"On {gameObject.name} Active eye is {_cam.stereoActiveEye}");
-        if (MainTexture != null)
-            Graphics.Blit(src, MainTexture);
-
-
-        // Graphics.Blit(src,_cam.targetTexture);
-
-    }
-
-    private Camera _cam;
 }
