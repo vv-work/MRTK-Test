@@ -99,3 +99,12 @@ remove HMD loader from manifest json
 Vertex Shader is working
 
 It looks like the key is invisible vertex shader.
+
+I made invisible outline.
+The layer that should 
+
+
+> 9/16/22 04:12:47 AM
+
+Made fragmented shader
+It's quite obvious that I need to change Post processing input to get result that I want
