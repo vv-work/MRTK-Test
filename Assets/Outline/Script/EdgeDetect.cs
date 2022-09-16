@@ -33,6 +33,9 @@ public class EdgeDetect : MonoBehaviour {
     [HideInInspector]
     public Shader edgeDetectShader;
     public Camera depthCapturingCamera;
+    public CameraEyeComponent DepthCapturingComp;
+
+
     [HideInInspector]
     public Shader edgeCombineShader;
     public RenderTexture edgeTexture;
@@ -41,82 +44,109 @@ public class EdgeDetect : MonoBehaviour {
     [HideInInspector]
     public Shader normalsShader;
     public Camera normalsCapturingCamera;
+    public CameraEyeComponent NormalsCapturingComp;
 
     int width = -1;
     int height = -1;
 
+    
     void LateUpdate() {
 
-        if (cam == null && width != -1) {
-            cam = GetComponent<Camera>();
-            depthCapturingCamera.GetComponent<Camera>().projectionMatrix = cam.projectionMatrix;
-            normalsCapturingCamera.GetComponent<Camera>().projectionMatrix = cam.projectionMatrix;
-            Debug.Log("Ini");
-            depthTexture = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32);
-            normalsTexture = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32);
-            edgeTexture = new RenderTexture(width, height, 0, RenderTextureFormat.ARGB32); //just need boolean
+        if (cam == null && width != -1)
+        {
+            InitCameras();
+        } 
 
-            depthTexture.filterMode = FilterMode.Point;
-            normalsTexture.filterMode = FilterMode.Point;
-            edgeTexture.filterMode = FilterMode.Point;
-
-            normalsCapturingCamera.targetTexture = normalsTexture;
-            normalsCapturingCamera.gameObject.SetActive(true);
-            normalsCapturingCamera.SetReplacementShader(normalsShader, "RenderType");
-
-            edgeDetectMat = new Material(edgeDetectShader);
-            edgeDetectMat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
-            edgeDetectMat.SetTexture("_NormalsTex", normalsTexture);
-            edgeDetectMat.SetVector("_SensitivityAndWidthArgs", new Vector4(depthSensitivity, normalsSensitivity, 0, 0));
-            prevNormalsSensitivity = normalsSensitivity;
-            prevDepthSensitivity = depthSensitivity;
-
-            Shader.SetGlobalInt("_EdgedetectDebugMode", (int)debugMode);
-            prevDebugMode = debugMode;
-
-            edgeCombineMat = new Material(edgeCombineShader);
-            edgeCombineMat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
-            edgeCombineMat.SetTexture("_EdgeTex", edgeTexture);
-            edgeCombineMat.color = outlineColor;
-            prevOutlineColor = outlineColor;
-
-            depthCapturingCamera.SetReplacementShader(encodedDepthShader, "RenderType");
-            depthCapturingCamera.targetTexture = depthTexture;
-            depthCapturingCamera.gameObject.SetActive(true);
-        }
-        
-
-        if (cam != null) {
-            Vector3 a = -cam.transform.InverseTransformPoint(cam.ScreenToWorldPoint(Vector3.forward));
-            a.z = cam.farClipPlane * farClipPlaneMultiplicand;
-
-            edgeDetectMat.SetMatrix("_Cam2World", Matrix4x4.TRS(Vector3.zero, cam.transform.rotation, Vector3.one));
-            Shader.SetGlobalVector("_EdgeDetectDepthArgs", a);
-
-            normalsCapturingCamera.fieldOfView = depthCapturingCamera.fieldOfView = cam.fieldOfView;
-            normalsCapturingCamera.farClipPlane = depthCapturingCamera.farClipPlane = cam.farClipPlane;
-            normalsCapturingCamera.nearClipPlane = depthCapturingCamera.nearClipPlane = cam.nearClipPlane;
-
-
-            if (prevNormalsSensitivity != normalsSensitivity || prevDepthSensitivity != depthSensitivity || prevDepth2Sensitivity != depthSensitivity2) {
-                edgeDetectMat.SetVector("_SensitivityAndWidthArgs", new Vector4(normalsSensitivity, depthSensitivity, depthSensitivity2, 0));
-                prevNormalsSensitivity = normalsSensitivity;
-                prevDepthSensitivity = depthSensitivity;
-                prevDepth2Sensitivity = depthSensitivity2;
-            }
-            if (debugMode != prevDebugMode) {
-                Shader.SetGlobalInt("_EdgedetectDebugMode", (int)debugMode);
-                prevDebugMode = debugMode;
-            }
-            if (prevOutlineColor != outlineColor) {
-                edgeCombineMat.color = outlineColor;
-                prevOutlineColor = outlineColor;
-            }
+        if (cam != null)
+        {
+          //  SetupCameras();
         }
       
     }
 
- 
+    private void InitCameras()
+    {
+        cam = GetComponent<Camera>();
+        depthCapturingCamera.GetComponent<Camera>().projectionMatrix = cam.projectionMatrix;
+        normalsCapturingCamera.GetComponent<Camera>().projectionMatrix = cam.projectionMatrix;
+
+        depthTexture = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32);
+        normalsTexture = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32);
+        edgeTexture = new RenderTexture(width, height, 0, RenderTextureFormat.ARGB32); //just need boolean
+
+        depthTexture.filterMode = FilterMode.Point;
+        normalsTexture.filterMode = FilterMode.Point;
+        edgeTexture.filterMode = FilterMode.Point;
+
+        //normalsCapturingCamera.targetTexture = normalsTexture;
+        NormalsCapturingComp = normalsCapturingCamera.GetComponent<CameraEyeComponent>();
+        NormalsCapturingComp.MainTexture = normalsTexture;
+
+
+        normalsCapturingCamera.ResetProjectionMatrix();
+        normalsCapturingCamera.gameObject.SetActive(true);
+        normalsCapturingCamera.SetReplacementShader(normalsShader, "RenderType");
+
+        edgeDetectMat = new Material(edgeDetectShader);
+        edgeDetectMat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+        edgeDetectMat.SetTexture("_NormalsTex", normalsTexture);
+        edgeDetectMat.SetVector("_SensitivityAndWidthArgs", new Vector4(depthSensitivity, normalsSensitivity, 0, 0));
+        prevNormalsSensitivity = normalsSensitivity;
+        prevDepthSensitivity = depthSensitivity;
+
+        Shader.SetGlobalInt("_EdgedetectDebugMode", (int)debugMode);
+        prevDebugMode = debugMode;
+
+        edgeCombineMat = new Material(edgeCombineShader);
+        edgeCombineMat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+        edgeCombineMat.SetTexture("_EdgeTex", edgeTexture);
+        edgeCombineMat.color = outlineColor;
+        prevOutlineColor = outlineColor;
+
+        depthCapturingCamera.SetReplacementShader(encodedDepthShader, "RenderType");
+       // depthCapturingCamera.targetTexture = depthTexture;
+
+        DepthCapturingComp = depthCapturingCamera.GetComponent<CameraEyeComponent>();
+        DepthCapturingComp.MainTexture = depthTexture;
+        depthCapturingCamera.ResetProjectionMatrix();
+        depthCapturingCamera.gameObject.SetActive(true);
+    }
+
+    private void SetupCameras()
+    {
+        Vector3 a = -cam.transform.InverseTransformPoint(cam.ScreenToWorldPoint(Vector3.forward));
+        a.z = cam.farClipPlane * farClipPlaneMultiplicand;
+
+        edgeDetectMat.SetMatrix("_Cam2World", Matrix4x4.TRS(Vector3.zero, cam.transform.rotation, Vector3.one));
+        Shader.SetGlobalVector("_EdgeDetectDepthArgs", a);
+
+        normalsCapturingCamera.fieldOfView = depthCapturingCamera.fieldOfView = cam.fieldOfView;
+        normalsCapturingCamera.farClipPlane = depthCapturingCamera.farClipPlane = cam.farClipPlane;
+        normalsCapturingCamera.nearClipPlane = depthCapturingCamera.nearClipPlane = cam.nearClipPlane;
+
+
+        if (prevNormalsSensitivity != normalsSensitivity || prevDepthSensitivity != depthSensitivity ||
+            prevDepth2Sensitivity != depthSensitivity2)
+        {
+            edgeDetectMat.SetVector("_SensitivityAndWidthArgs",
+                new Vector4(normalsSensitivity, depthSensitivity, depthSensitivity2, 0));
+            prevNormalsSensitivity = normalsSensitivity;
+            prevDepthSensitivity = depthSensitivity;
+            prevDepth2Sensitivity = depthSensitivity2;
+        }
+
+        if (debugMode != prevDebugMode)
+        {
+            Shader.SetGlobalInt("_EdgedetectDebugMode", (int)debugMode);
+            prevDebugMode = debugMode;
+        }
+
+        if (prevOutlineColor != outlineColor)
+        {
+            edgeCombineMat.color = outlineColor;
+            prevOutlineColor = outlineColor;
+        }
+    }
 
 
     void OnRenderImage(RenderTexture source, RenderTexture destination) {
@@ -126,10 +156,12 @@ public class EdgeDetect : MonoBehaviour {
             width = source.width;
             height = source.height;
         } else {
-            Debug.Log($"Active eye is {cam.stereoActiveEye}");
+            if (cam.stereoActiveEye == Camera.MonoOrStereoscopicEye.Left)
+            {
 
-            Graphics.Blit(depthTexture, edgeTexture, edgeDetectMat);
-            Graphics.Blit(source, destination, edgeCombineMat);
+                Graphics.Blit(depthTexture, edgeTexture, edgeDetectMat);
+                Graphics.Blit(source, destination, edgeCombineMat);
+            }
         }
         
     }
