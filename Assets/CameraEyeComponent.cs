@@ -26,6 +26,7 @@ namespace Assets
         private void OnRenderImage(RenderTexture src, RenderTexture dest)
         {
             var  monoOrStereoscopicEye = Cam.stereoActiveEye;
+
          if (monoOrStereoscopicEye == Camera.MonoOrStereoscopicEye.Left)
         {
             Graphics.Blit(src,TextureL);
@@ -34,6 +35,7 @@ namespace Assets
         { 
             Graphics.Blit(src,TextureR);
         }
+         
         }
     }
 }

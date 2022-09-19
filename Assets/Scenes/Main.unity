@@ -2010,6 +2010,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2920229552595927126, guid: 6ea556579f78a5c4f9b5b55c41c39786, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2920229552775081296, guid: 6ea556579f78a5c4f9b5b55c41c39786, type: 3}
+      propertyPath: m_Depth
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2920229552775081296, guid: 6ea556579f78a5c4f9b5b55c41c39786, type: 3}
       propertyPath: m_ClearFlags
       value: 2

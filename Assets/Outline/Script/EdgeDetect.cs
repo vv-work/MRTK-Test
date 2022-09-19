@@ -192,13 +192,20 @@ public class EdgeDetect : MonoBehaviour {
                 Graphics.Blit(CameraSetL.depthTexture, CameraSetL.edgeTexture, CameraSetL.edgeDetectMat);
                 Graphics.Blit(source, destination, CameraSetL.edgeCombineMat);
             }
-            if (cam.stereoActiveEye == Right)
+            else if (cam.stereoActiveEye == Right)
             { 
 
                 Graphics.Blit(CameraSetR.depthTexture, CameraSetR.edgeTexture, CameraSetR.edgeDetectMat);
                Graphics.Blit(source, destination, CameraSetR.edgeCombineMat);
             }
-        }
+             else  
+            {
+
+               Graphics.Blit(source, destination);
+            }
+
+
+         }
         
     }
 

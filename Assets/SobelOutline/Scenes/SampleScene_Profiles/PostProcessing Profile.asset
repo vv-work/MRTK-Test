@@ -80,13 +80,13 @@ MonoBehaviour:
     value: 1
   thickness:
     overrideState: 1
-    value: 1.75
+    value: 1.5
   depthMultiplier:
     overrideState: 0
     value: 1
   depthBias:
     overrideState: 1
-    value: 0.46
+    value: 0.5
   normalMultiplier:
     overrideState: 0
     value: 1
@@ -95,4 +95,4 @@ MonoBehaviour:
     value: 10
   color:
     overrideState: 1
-    value: {r: 0.3112616, g: 0.9622642, b: 0.18519042, a: 1}
+    value: {r: 0.43888786, g: 0.8490566, b: 0.41171235, a: 1}
