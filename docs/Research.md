@@ -118,3 +118,23 @@ It's quite obvious that I need to change Post processing input to get result tha
 ```
 
 VertMain vs FragMain
+
+
+> 9/16/22 07:21:07 AM
+
+Solve it in quick dirty way.
+
+Ready f		
+
+Soltution: 
+```csharp
+   _cam.ResetStereoProjectionMatrices();
+```
+
+I descovered the issue
+
+
+> 9/19/22 07:15:09 AM
+
+Last time I make it work to show up the current progress. 
+But now I need to move on with that one.
