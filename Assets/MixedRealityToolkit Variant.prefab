@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7417330841761064876, guid: fc6268ccf46b5654896c552861c871d8, type: 3}
       propertyPath: m_Name
-      value: MixedRealityToolkit (Inactive)
+      value: MixedRealityToolkit
       objectReference: {fileID: 0}
     - target: {fileID: 7417330841761064878, guid: fc6268ccf46b5654896c552861c871d8, type: 3}
       propertyPath: m_RootOrder
