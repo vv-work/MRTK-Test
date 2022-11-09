@@ -138,3 +138,15 @@ I descovered the issue
 
 Last time I make it work to show up the current progress. 
 But now I need to move on with that one.
+
+
+> Back to work with Ivan
+
+Tasks:
+
+- [ ] Maker URP project
+- [ ] Outline with URP test
+- [ ] Add something on Shader Graph on top of URP
+- [ ] Post processing tranpsernt Block.
+- [ ] Creat new buffer
+- [ ] Make shader that put info into the buffer

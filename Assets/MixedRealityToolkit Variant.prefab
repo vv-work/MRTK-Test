@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7417330841761064876, guid: fc6268ccf46b5654896c552861c871d8, type: 3}
       propertyPath: m_Name
-      value: MixedRealityToolkit
+      value: MixedRealityToolkit (Inactive)
       objectReference: {fileID: 0}
     - target: {fileID: 7417330841761064878, guid: fc6268ccf46b5654896c552861c871d8, type: 3}
       propertyPath: m_RootOrder
@@ -58,6 +58,6 @@ PrefabInstance:
     - target: {fileID: 7417330841761064879, guid: fc6268ccf46b5654896c552861c871d8, type: 3}
       propertyPath: activeProfile
       value: 
-      objectReference: {fileID: 11400000, guid: 7e7c962b9eb9dfa44993d5b2f2576752, type: 2}
+      objectReference: {fileID: 11400000, guid: 6646311a807abcd448e6aa6abb1dd694, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc6268ccf46b5654896c552861c871d8, type: 3}

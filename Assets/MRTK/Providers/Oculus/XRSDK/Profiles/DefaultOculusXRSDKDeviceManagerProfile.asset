@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DefaultOculusXRSDKDeviceManagerProfile
   m_EditorClassIdentifier: 
   isCustomProfile: 0
-  ovrCameraRigPrefab: {fileID: 2343937678421323989, guid: 993e08525ad41f64da9f7a10a4679710, type: 3}
+  ovrCameraRigPrefab: {fileID: 2343937678421323989, guid: d995c7d27308f6b43b1d2f1a7031ccda, type: 3}
   renderAvatarHandsWithControllers: 1
   localAvatarPrefab: {fileID: 5991599894901224489, guid: 5357c8e6c4495c04f90e97272375c294, type: 3}
   minimumHandConfidence: 1065353216
