@@ -3,7 +3,6 @@
 
 using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
 using VertexFragment;
 
 namespace Microsoft.MixedReality.Toolkit.Examples.Demos
@@ -11,6 +10,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
     public class SliderChangeOutline : MonoBehaviour
     {
         
+        /*
         [SerializeField]
         private Renderer _postProcessVolume;
 
@@ -54,5 +54,6 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
                 _outline.color.value = new Color(color.r, color.g,eventData.NewValue );
             }
         }
+        */
     }
 }
