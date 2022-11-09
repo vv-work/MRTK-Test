@@ -10,50 +10,39 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
     public class SliderChangeOutline : MonoBehaviour
     {
         
-        /*
+        
         [SerializeField]
         private Renderer _postProcessVolume;
 
         [SerializeField]
-        private PostProcessProfile _postProcessProfile;
-
-        [SerializeField]
-        private SobelOutline _outline;
-
-        public void Awake()
-        {
-
-            _outline = _postProcessProfile.GetSetting<SobelOutline>();
-
-        }
+        private Material _material; 
 
         public void OnSliderUpdatedRed(SliderEventData eventData) 
         { 
 
-            if ((_outline != null) )
+            if ((_material != null) )
             {
-                Color color = _outline.color.value;
-                _outline.color.value = new Color(eventData.NewValue, color.g,color.b );
+                Color color = _material.GetColor("_RimColor");
+                _material.SetColor("_RimColor", new Color(eventData.NewValue, color.g, color.b));
             }
         }
 
         public void OnSliderUpdatedGreen(SliderEventData eventData)
         {
-            if ((_outline != null) )
+            if ((_material != null) )
             {
-                Color color = _outline.color.value;
-                _outline.color.value = new Color(color.r, eventData.NewValue,color.b );
+                _material.SetFloat("_RimPower",eventData.NewValue*8);
+
             }
         }
 
         public void OnSliderUpdateBlue(SliderEventData eventData)
         {
-            if ((_outline != null) )
+            if ((_material != null) )
             {
-                Color color = _outline.color.value;
-                _outline.color.value = new Color(color.r, color.g,eventData.NewValue );
+                _material.color = new Color(eventData.NewValue,eventData.NewValue,eventData.NewValue );
             }
         }
-        */
+       
     }
 }
