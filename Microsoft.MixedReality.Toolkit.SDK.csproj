@@ -177,8 +177,8 @@
     <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Controllers\WindowsMixedRealityControllerVisualizer.cs" />
     <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Dwell\DwellHandler.cs" />
     <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\Controllers\MixedRealityControllerVisualizer.cs" />
-    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\RotationAxisConstraint.cs" />
     <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorState.cs" />
+    <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\RotationAxisConstraint.cs" />
     <Compile Include="Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeProperty.cs" />
     <Compile Include="Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\ReceiverBaseMonoBehavior.cs" />
     <Compile Include="Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FixedDistanceConstraint.cs" />

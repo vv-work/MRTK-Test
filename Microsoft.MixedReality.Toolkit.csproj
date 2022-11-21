@@ -278,9 +278,9 @@
     <Compile Include="Assets\MRTK\Core\Utilities\WindowsDevicePortal\DataStructures\InstallStatus.cs" />
     <Compile Include="Assets\MRTK\Core\Definitions\InputSystem\TouchableEventType.cs" />
     <Compile Include="Assets\MRTK\Core\Utilities\Lines\DataProviders\BezierInertia.cs" />
+    <Compile Include="Assets\MRTK\Core\EventDatum\Diagnostics\DiagnosticsEventData.cs" />
     <Compile Include="Assets\MRTK\Core\Providers\BaseController.cs" />
     <Compile Include="Assets\MRTK\Core\Definitions\Utilities\AnimatorParameter.cs" />
-    <Compile Include="Assets\MRTK\Core\EventDatum\Diagnostics\DiagnosticsEventData.cs" />
     <Compile Include="Assets\MRTK\Core\Utilities\DeviceUtility.cs" />
     <Compile Include="Assets\MRTK\Core\Providers\UnityInput\XboxController.cs" />
     <Compile Include="Assets\MRTK\Core\Utilities\MathUtilities.cs" />

@@ -124,8 +124,8 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCompositionUtil.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVROnCompleteListener.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRGLTFLoader.cs" />
-    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRNetwork.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRTrackedKeyboard\OVRTrackedKeyboardSampleControls.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRNetwork.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRTrackedKeyboard\OVRKeyboard.cs" />
     <Compile Include="Assets\Oculus\VR\ThirdParty\openvr_api.cs" />
@@ -144,8 +144,8 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRResetOrientation.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSystemPerfMetrics.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRScenePrefabOverride.cs" />
-    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeleton.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRChromaticAberration.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeleton.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRScenePlaneMeshFilter.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCameraComposition.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRSceneVolume.cs" />

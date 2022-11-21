@@ -107,8 +107,8 @@
     <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\IE\EvtConfigs\StateEvents.cs" />
     <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\IE\EvtConfigs\SelectFarEvents.cs" />
     <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\IE\Defs\CoreInteractionState.cs" />
-    <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\IE\EvtReceivers\ToggleOnReceiver.cs" />
     <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\Example\CustomStateEx\KeyboardReceiver.cs" />
+    <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\IE\EvtReceivers\ToggleOnReceiver.cs" />
     <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\AssemblyInfo.cs" />
     <Compile Include="Assets\MRTK\SDK\Experimental\InteractiveElement\IE\Defs\InteractionStateActiveEvent.cs" />
   </ItemGroup>
