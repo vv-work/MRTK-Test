@@ -144,8 +144,8 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRResetOrientation.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSystemPerfMetrics.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRScenePrefabOverride.cs" />
-    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeleton.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRChromaticAberration.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeleton.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRScenePlaneMeshFilter.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Composition\OVRCameraComposition.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\OVRSceneVolume.cs" />
