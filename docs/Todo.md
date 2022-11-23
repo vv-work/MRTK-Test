@@ -24,11 +24,21 @@ Have an issue with asembly definity already exist.
 
 - [x] Will change settings.
 - [x] Will Close Unity 
-- [ ] Clear package cahce.
-- [ ] Reopen again. 
-- [ ] Reintegrate MRTK and oculus
+- [x] Clear package cahce.
+- [x] Reopen again. 
+- [x] Reintegrate MRTK and oculus
+
+> 11/23/22 09:27:40
+
+Had and issue with version control
 
 
+
+> 11/23/22 09:35:27
+
+Still dosen't work and issue is obviously in the MRTK Tools 
+
+So I will delete the packages manually clear the cache and reinstall
 
 ### Phase 2 15:00
 	
