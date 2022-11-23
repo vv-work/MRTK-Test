@@ -16,6 +16,18 @@
 	- [ ] A2 Add scene Switcher 09:15
         - A8 Deliver Everything including gifs and videos 10:00
 
+#### Log 
+
+
+> 11/23/22 09:10:47
+Have an issue with asembly definity already exist.
+
+1. Will change settings.
+2. Will Close Unity 
+3. Clear package cahce.
+4. Reopen again. 
+5. Reintegrate MRTK and oculus
+
 ### Phase 2 15:00
 	
 - [ ] 🐸 ❗A1 Deliver Build
