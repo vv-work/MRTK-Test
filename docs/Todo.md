@@ -2,6 +2,40 @@
 
 ## Todo 
 
+### Phase 1: Deliver new Hololens Build 10:00
+
+
+- [ ] 🐸❗A0 Deliver Hololens build 08:00
+	- [ ] A0 Update Unity Version  08:50
+	    - git version controll Unity 2021.3.3f and package manifest
+	- [ ] A1 Switch to URP 09:00
+	- [ ] A3 Add shapes for URP 09:10			
+        - [ ] A4 Made simple vertex object outline based on shapes 09:40
+	Box or something in the second scene
+	- A5 Test it in Stereo Mode and on Oculus 
+	- [ ] A2 Add scene Switcher 09:15
+        - A8 Deliver Everything including gifs and videos 10:00
+
+### Phase 2 15:00
+	
+- [ ] 🐸 ❗A1 Deliver Build
+	- [ ] A0 Switch into Hololens Build 10:00
+	- [ ] A1 Test Hololens build in Emulator 10:15
+	- [ ] A2 Build and deliver 
+	- [ ] A3 Sync plans once again with Shaubam and Randolph
+	- [ ] A4 Be ready to use that build on Tsukat device
+
+### Phase 3 18:00
+	
+- [ ] 🐸 ❗A2 Make it acceptable
+    - [ ] A0 Analyze data for Shapes vs Sobel Outline
+    - [ ] A1 Start implementing URP Sobel outline solution for event
+
+
+	
+
+### Phase 4	
+
 - [x] 7:00 Transperent Outline Shader
     - [ ] List of questions
     - [ ] Existing solution
