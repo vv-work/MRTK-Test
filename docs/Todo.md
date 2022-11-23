@@ -52,6 +52,26 @@ Heaving problems switching Unity version
 
 Remove Oculus Simple freamwork
 
+
+> 11/24/22 00:09:25
+
+Retake on Phase 1
+
+
+- [ ] 🐸❗A0 `02:00` Deliver Hololens build 
+	- [x] A0 Update Unity Version  08:50
+	    - [x]git version controll Unity 2021.3.3f and package manifest
+	- [ ] `00:20` A1 Switch to URP 
+	- [ ] `00:30` A3 Add shapes for URP 
+        - [ ] `01:00` A4 Made simple vertex object outline based on shapes 
+	- [ ] `01:30` A5 Connect Shapes controlls to camera distance
+	- [ ] `01:45` A6 Add shapes manipulations
+	- Box or something in the second scene
+	- A5 Test it in Stereo Mode and on Oculus 
+	- [ ] A2 Add scene Switcher 09:15
+        - A8 Deliver Everything including gifs and videos 10:00
+
+
 ### Phase 2 15:00
 	
 - [ ] 🐸 ❗A1 Deliver Build
