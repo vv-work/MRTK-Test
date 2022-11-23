@@ -46,9 +46,16 @@ So I will delete the packages manually clear the cache and reinstall
 
 Heaving problems switching Unity version
 
+
+
+> 11/23/22 10:56:45
+
+Remove Oculus Simple freamwork
+
 ### Phase 2 15:00
 	
 - [ ] 🐸 ❗A1 Deliver Build
+    	- [ ] A❗🐸 Get Simple freamwork from other branch `Passthrough`
 	- [ ] A0 Switch into Hololens Build 10:00
 	- [ ] A1 Test Hololens build in Emulator 10:15
 	- [ ] A2 Build and deliver 
