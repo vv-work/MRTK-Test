@@ -40,6 +40,12 @@ Still dosen't work and issue is obviously in the MRTK Tools
 
 So I will delete the packages manually clear the cache and reinstall
 
+
+
+> 11/23/22 09:45:06
+
+Heaving problems switching Unity version
+
 ### Phase 2 15:00
 	
 - [ ] 🐸 ❗A1 Deliver Build
