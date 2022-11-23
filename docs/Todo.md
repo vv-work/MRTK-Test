@@ -6,8 +6,8 @@
 
 
 - [ ] 🐸❗A0 Deliver Hololens build 08:00
-	- [ ] A0 Update Unity Version  08:50
-	    - git version controll Unity 2021.3.3f and package manifest
+	- [x] A0 Update Unity Version  08:50
+	    - [x]git version controll Unity 2021.3.3f and package manifest
 	- [ ] A1 Switch to URP 09:00
 	- [ ] A3 Add shapes for URP 09:10			
         - [ ] A4 Made simple vertex object outline based on shapes 09:40
@@ -22,11 +22,13 @@
 > 11/23/22 09:10:47
 Have an issue with asembly definity already exist.
 
-1. Will change settings.
-2. Will Close Unity 
-3. Clear package cahce.
-4. Reopen again. 
-5. Reintegrate MRTK and oculus
+- [x] Will change settings.
+- [x] Will Close Unity 
+- [ ] Clear package cahce.
+- [ ] Reopen again. 
+- [ ] Reintegrate MRTK and oculus
+
+
 
 ### Phase 2 15:00
 	
