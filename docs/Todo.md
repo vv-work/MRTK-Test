@@ -61,8 +61,8 @@ Retake on Phase 1
 - [ ] 🐸❗A0 `02:00` Deliver Hololens build 
 	- [x] A0 Update Unity Version  08:50
 	    - [x]git version controll Unity 2021.3.3f and package manifest
-	- [ ] `00:20` A1 Switch to URP 
-	- [ ] `00:30` A3 Add shapes for URP 
+	- [x] `00:20` A1 Switch to URP 
+	- [x] `00:30` A3 Add shapes for URP 
         - [ ] `01:00` A4 Made simple vertex object outline based on shapes 
 	- [ ] `01:30` A5 Connect Shapes controlls to camera distance
 	- [ ] `01:45` A6 Add shapes manipulations

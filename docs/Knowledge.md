@@ -1,4 +1,5 @@
 # 
 
 
-Oculus Mutliview vs Multipass
+
+`Multiview` - is single pass `
