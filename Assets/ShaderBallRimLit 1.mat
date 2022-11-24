@@ -158,7 +158,7 @@ Material:
     - _RefractiveIndex: 1.1
     - _RenderQueueOverride: -1
     - _RimLight: 1
-    - _RimPower: 8
+    - _RimPower: 6.728
     - _RoundCornerMargin: 0
     - _RoundCornerPower: 0.4
     - _RoundCornerRadius: 0.25
@@ -198,6 +198,6 @@ Material:
     - _ProximityLightCenterColorOverride: {r: 1, g: 0, b: 0, a: 0}
     - _ProximityLightMiddleColorOverride: {r: 0, g: 1, b: 0, a: 0.5}
     - _ProximityLightOuterColorOverride: {r: 0, g: 0, b: 1, a: 1}
-    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 1, b: 1, a: 1}
     - _RoundCornersRadius: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []

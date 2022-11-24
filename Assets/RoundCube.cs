@@ -3,7 +3,6 @@ using UnityEngine;
 using System.Collections;
 using Microsoft.MixedReality.Toolkit.UI;
 using Shapes;
-using UnityEditorInternal;
 
 namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 {
