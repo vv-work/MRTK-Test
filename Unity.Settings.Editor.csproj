@@ -56,11 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\Settings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\ISettingsRepository.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\UserSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\SettingsGUILayout.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\FileSettingsRepository.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\Settings.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\UserSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\PackageSettingsRepository.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\Attributes.cs" />
@@ -68,7 +65,10 @@
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\SettingsDictionary.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\ProjectUserSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\UserSettingsRepository.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\ISettingsRepository.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\UserSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\ValueWrapper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\SettingsGUILayout.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\Unity.Settings.Editor.asmdef" />
@@ -335,11 +335,11 @@
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>B:\MyPrograms\Unity\2021.3.11f1\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>

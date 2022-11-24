@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_11;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_WINRT;TEXTCORE_1_0_OR_NEWER;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;UNITY_WSA;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_WINRT;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;PLATFORM_SUPPORTS_ADS_ID;CURL_STATICLIB;PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME;PLATFORM_IMPLEMENTS_ATTACH_DIALOG;DISABLE_PLUGIN_LOAD_WRAPPER;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;UNITY_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_11;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;UNITY_INPUT_SYSTEM;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,7 +49,7 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2021.3.11f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -59,106 +59,106 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\XRRaycastHit.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ParticipantSubsystem\XRParticipant.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Promise.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\TrackableChanges.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HashCode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRReferencePointSubsystem.deprecated.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HelpUrls.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\Plane.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\DepthSubsystem\XRPointCloudData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\XRPlaneSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraFrame.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRReferenceImage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\PlaneClassification.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\AddReferenceImageJobStatus.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\PlaneDetectionMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRImageTrackingSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\FaceSubsystem\XRFaceMesh.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\NativeCopyUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\LightEstimationMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\ConfigurationDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\Feature.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\IReferenceImageLibrary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\DepthSubsystem\XRPointCloud.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\GuidUtil.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRReferenceImageLibrary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\XRSessionSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraSubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\DepthSubsystem\XRDepthSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\Transformation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBody.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\ConversionParams.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\PlaneAlignment.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\NotTrackingReason.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\BoundedPlane.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\AsyncConversion.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\XRSessionSubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\XRPlaneSubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRAnchorSubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\ValidationUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\HumanSegmentationStencilMode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\FaceSubsystem\XRFaceSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRAnchor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\XRSessionUpdateParams.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ScopedProfiler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\XROcclusionSubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\ITrackable.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\InputSubsystem\HandheldARInputDevice.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SerializableDictionary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRReferenceObjectEntry.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBodySubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\Configuration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\TrackableChanges.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\SessionInstallationStatus.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\XRRaycastSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\AddReferenceImageJobState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HelpUrls.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\FaceSubsystem\XRFace.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\Plane.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraIntrinsics.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\AsyncConversionStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\DepthSubsystem\XRPointCloudData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\XRPlaneSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraFrame.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CpuImageFormat.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRReferenceImage.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRReferenceObjectLibrary.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBodySubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\PlaneClassification.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\AddReferenceImageJobStatus.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRAnchorSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SerializableGuid.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRTrackedImage.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRReferencePoint.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\SessionAvailability.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\PlaneDetectionMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRImageTrackingSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\FaceSubsystem\XRFaceMesh.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\NativeCopyUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\DefaultConfigurationChooser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\LightEstimationMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\ConfigurationDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\Feature.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\XROcclusionSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\RuntimeReferenceImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\IReferenceImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\DepthSubsystem\XRPointCloud.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\GuidUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ParticipantSubsystem\XRParticipantSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\XRCpuImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRReferenceImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\XRSessionSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRTextureDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRObjectTrackingSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\DepthSubsystem\XRDepthSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\Transformation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBody.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\ConversionParams.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBodyJoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\PlaneAlignment.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\NotTrackingReason.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\Api.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\CameraFocusMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\XRRaycastSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\FaceSubsystem\XRFaceSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRReferencePointSubsystemDescriptor.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Supported.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\BoundedPlane.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRCpuImage\AsyncConversion.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbe.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\XRSessionSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\PlaneTracking\XRPlaneSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRAnchorSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBodyPose2DJoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ParticipantSubsystem\XRParticipantSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\ValidationUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\HumanSegmentationStencilMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraParams.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\TrackableType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\FaceSubsystem\XRFaceSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AnchorSubsystem\XRAnchor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackableId.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SessionSubsystem\XRSessionUpdateParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\TrackableType.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRReferenceObject.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\TrackingSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ScopedProfiler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\XROcclusionSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\XRRaycast.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\ITrackable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\DepthSubsystem\XRDepthSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\InputSubsystem\HandheldARInputDevice.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\EnvironmentDepthMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbeSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\ConfigurationChooser.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraConfiguration.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRTrackedObject.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\HumanSegmentationDepthMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\SerializableDictionary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRReferenceObjectEntry.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\XRSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBodySubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\Configuration\Configuration.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\XRImageTrackingSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ImageTrackingSubsystem\MutableRuntimeReferenceImageLibrary.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\OcclusionSubsystem\OcclusionPreferenceMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\EnvironmentProbeSubsystem\XREnvironmentProbeSubsystemDescriptor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -348,9 +348,6 @@
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>B:\MyPrograms\Unity\2021.3.11f1\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>B:\MyPrograms\Unity\2021.3.11f1\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>B:\MyPrograms\Unity\2021.3.11f1\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
     </Reference>
@@ -417,11 +414,11 @@
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>B:\MyPrograms\Unity\2021.3.11f1\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>

@@ -46,7 +46,6 @@ MonoBehaviour:
   - {fileID: -7000555206481762721}
   - {fileID: -3009786392713426211}
   - {fileID: -937403935152426001}
-  - {fileID: 4422359582594859488}
   - {fileID: 2830349325950552239}
   m_renderMode: 0
   m_depthSubmissionMode: 0
@@ -284,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef793c31862a37448e907829482ef80, type: 3}
   m_Name: OculusQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Oculus Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.oculusquest
@@ -306,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79c911b38743a649b1c1eddb5097202, type: 3}
   m_Name: HandTrackingFeaturePlugin Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Hand Tracking
   version: 1.6.0
   featureIdInternal: com.microsoft.openxr.feature.handtracking
@@ -447,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -1045,25 +1044,24 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -122217872207441531}
   - {fileID: 3117530350420368610}
   - {fileID: 929451405790451938}
   - {fileID: 4633692479639371157}
   - {fileID: -5257861155805655095}
   - {fileID: 1432476751587900097}
-  - {fileID: 1623408370065488790}
   - {fileID: -8128030026521594130}
-  - {fileID: 1860126773625580076}
   - {fileID: 7234566600062346037}
   - {fileID: 4665836806827745269}
   - {fileID: 604633156922208473}
   - {fileID: 893622964960004000}
   - {fileID: 9215020425050456447}
   - {fileID: -2269418802676515298}
-  - {fileID: -5336571644667093685}
-  - {fileID: 6269226187355022410}
   - {fileID: -8105938218474354516}
+  - {fileID: 1623408370065488790}
+  - {fileID: 1860126773625580076}
   - {fileID: -265961513366367167}
+  - {fileID: 6269226187355022410}
+  - {fileID: -122217872207441531}
   m_renderMode: 1
   m_depthSubmissionMode: 2
 --- !u!114 &6817330255728273930
