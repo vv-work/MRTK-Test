@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Shapes;
 using UnityEngine;
-using UnityEngine.ProBuilder;
 
 [RequireComponent(typeof(Polyline))]
 public class AddEdgesOnColider : MonoBehaviour
