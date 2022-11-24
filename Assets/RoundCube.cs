@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections;
+using Microsoft.MixedReality.Toolkit.UI;
 using Shapes;
 using UnityEditorInternal;
 
@@ -22,7 +23,9 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
         [SerializeField]
         private float _minDistance = 0.1f;
 
+        [SerializeField]
         private float _maxThickness=2f;
+        [SerializeField]
         private float _minThickness=0.1f;
 
         public int xSize, ySize, zSize;
@@ -42,15 +45,16 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
         [SerializeField]
         private float delays = 0.05f;
 
-        private void Awake()
+        private void Start()
         {
-            if (_camera = null)
+            if (_camera == null)
                 _camera = Camera.main.transform;
 
         }
 
         private IEnumerator Generate()
         {
+            yield break;
             if (_originalMash == null)
                 _originalMash = GetComponent<MeshFilter>().mesh;
 
@@ -65,6 +69,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
             while (true)
             {
                 WaitForSeconds wait = new WaitForSeconds(delays);
+                
 
                 vertices = new Vector3[_originalMash.vertexCount + 1];
                 int v = 0;
@@ -83,14 +88,21 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 
         private void Update()
         {
-            if(_camera==null||_myLines==null)
+            if (_camera == null || _myLines == null)
+                return;
                 
             foreach (Line myLine in _myLines)
             {
-                float sqrDist = Vector3.SqrMagnitude(_camera.position - transform.position);
-                float maxDistance = _maxDistance - _minDistance;
-                float f = Mathf.InverseLerp(0, maxDistance, sqrDist);
-                myLine.Thickness = (Mathf.Lerp(0, maxDistance, f)*maxDistance)+_minDistance;
+                float distance = Vector3.Cross(_camera.position, transform.position).sqrMagnitude/_maxDistance;
+                Debug.Log($"Sqr Dist {distance}");
+                float f= Mathf.Lerp(_minDistance,_maxDistance,distance)/_maxDistance;
+
+
+
+                float thickness = (Mathf.Lerp(_minThickness, _maxThickness, f)); 
+                //Debug.Log($"{thickness} Set thickness to debug build");
+
+                myLine.Thickness = thickness;
 
             }
 
@@ -148,6 +160,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 
         private void OnDrawGizmosSelected()
         {
+            return;
             if (_generateCube != _generateCubeOrMesh)
             {
                 StopCoroutine(Generate());

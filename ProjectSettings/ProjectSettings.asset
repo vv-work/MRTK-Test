@@ -180,6 +180,9 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 11400000, guid: 3499b94765c2566499c417af8686e280, type: 2}
+  - {fileID: 2241124016952638550, guid: efb2974de05aba54885a76d396526d4c, type: 2}
+  - {fileID: -8780279317066764817, guid: cac70deff8ed21546b357856fa33c7a7, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -199,7 +202,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.TempUnity
+    Android: com.Eterio.MRTKURP
   buildNumber:
     Standalone: 0
     iPhone: 0

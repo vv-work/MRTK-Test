@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plawius-NonConvexCollider\NonConvexCollider.asmdef" />
+    <None Include="Assets\Plawius-NonConvexCollider\API\Plugins\x86_64\libvhacd.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -707,10 +708,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NonConvexColliderRuntimeAPI.csproj">
-      <Project>{67EB65E4-1323-FA0E-25E6-151ACCB831DA}</Project>
-      <Name>NonConvexColliderRuntimeAPI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
