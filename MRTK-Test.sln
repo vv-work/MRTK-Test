@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonConvexCollider", "NonCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuntimeTestAssembly", "RuntimeTestAssembly.csproj", "{F8345124-FA54-D83B-D69E-8A4AD30DD668}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Polybrush", "Unity.Polybrush.csproj", "{3E924063-B151-1AD3-3FD4-39F2D6BA651A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.OpenXR.Editor", "Unity.XR.OpenXR.Editor.csproj", "{50E03323-D6FB-EE08-6CF5-4C2ACD94A1F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.Wit.Editor", "Facebook.Wit.Editor.csproj", "{E95D85D6-2D91-9440-0763-08E3DFC36042}"
@@ -158,6 +160,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesEditor", "ShapesEditor.csproj", "{39C5E270-EF3E-6487-9639-558B7B7DD7F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonConvexEditor", "NonConvexEditor.csproj", "{999244E3-2A05-E683-BAE3-2E719B8709EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Polybrush.Editor", "Unity.Polybrush.Editor.csproj", "{AAA38DC6-5B7A-6528-FF8D-28FF33DBEB30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Settings.Editor", "Unity.Settings.Editor.csproj", "{D2B1CD5D-5E7A-DDB8-807F-C4D46999783E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -329,6 +335,10 @@ Global
 		{F8345124-FA54-D83B-D69E-8A4AD30DD668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8345124-FA54-D83B-D69E-8A4AD30DD668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8345124-FA54-D83B-D69E-8A4AD30DD668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E924063-B151-1AD3-3FD4-39F2D6BA651A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E924063-B151-1AD3-3FD4-39F2D6BA651A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E924063-B151-1AD3-3FD4-39F2D6BA651A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E924063-B151-1AD3-3FD4-39F2D6BA651A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50E03323-D6FB-EE08-6CF5-4C2ACD94A1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{50E03323-D6FB-EE08-6CF5-4C2ACD94A1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E03323-D6FB-EE08-6CF5-4C2ACD94A1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -481,6 +491,14 @@ Global
 		{999244E3-2A05-E683-BAE3-2E719B8709EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{999244E3-2A05-E683-BAE3-2E719B8709EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{999244E3-2A05-E683-BAE3-2E719B8709EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA38DC6-5B7A-6528-FF8D-28FF33DBEB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA38DC6-5B7A-6528-FF8D-28FF33DBEB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA38DC6-5B7A-6528-FF8D-28FF33DBEB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA38DC6-5B7A-6528-FF8D-28FF33DBEB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B1CD5D-5E7A-DDB8-807F-C4D46999783E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B1CD5D-5E7A-DDB8-807F-C4D46999783E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B1CD5D-5E7A-DDB8-807F-C4D46999783E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B1CD5D-5E7A-DDB8-807F-C4D46999783E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
