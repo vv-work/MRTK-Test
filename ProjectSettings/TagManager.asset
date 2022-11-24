@@ -43,3 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Outline
+    uniqueID: 1883037143
+    locked: 0
