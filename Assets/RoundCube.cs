@@ -1,6 +1,8 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections;
+using Shapes;
+using UnityEditorInternal;
 
 namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 {
@@ -8,6 +10,20 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
     public class RoundCube : MonoBehaviour
     {
 
+
+        [SerializeField]
+        private Transform _camera; 
+        [SerializeField]
+        private Line[] _myLines;
+
+        [SerializeField]
+        private float _maxDistance= 5f;
+
+        [SerializeField]
+        private float _minDistance = 0.1f;
+
+        private float _maxThickness=2f;
+        private float _minThickness=0.1f;
 
         public int xSize, ySize, zSize;
 
@@ -26,6 +42,12 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
         [SerializeField]
         private float delays = 0.05f;
 
+        private void Awake()
+        {
+            if (_camera = null)
+                _camera = Camera.main.transform;
+
+        }
 
         private IEnumerator Generate()
         {
@@ -57,6 +79,21 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
                 _cycle = null;
                 yield break;
             }
+        }
+
+        private void Update()
+        {
+            if(_camera==null||_myLines==null)
+                
+            foreach (Line myLine in _myLines)
+            {
+                float sqrDist = Vector3.SqrMagnitude(_camera.position - transform.position);
+                float maxDistance = _maxDistance - _minDistance;
+                float f = Mathf.InverseLerp(0, maxDistance, sqrDist);
+                myLine.Thickness = (Mathf.Lerp(0, maxDistance, f)*maxDistance)+_minDistance;
+
+            }
+
         }
 
         private IEnumerator GenerateCube()
