@@ -706,10 +706,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NonConvexColliderRuntimeAPI.csproj">
-      <Project>{67EB65E4-1323-FA0E-25E6-151ACCB831DA}</Project>
-      <Name>NonConvexColliderRuntimeAPI</Name>
-    </ProjectReference>
     <ProjectReference Include="NonConvexCollider.csproj">
       <Project>{C1639414-8207-AA61-854A-F764E51B5994}</Project>
       <Name>NonConvexCollider</Name>
