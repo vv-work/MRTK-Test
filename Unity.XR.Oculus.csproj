@@ -57,18 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\InputSystem\DeviceLayouts.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\InputFocus.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\Device.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusDevelopment.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\FFR.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusUsages.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\ColorScale.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusPerformance.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\InputSystem\DeviceLayouts.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\InputFocus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusDevelopment.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusBoundary.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\RegisterUpdateCallback.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusPerformance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\Android\OculusUnity.java" />

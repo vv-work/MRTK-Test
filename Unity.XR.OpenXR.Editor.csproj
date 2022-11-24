@@ -56,25 +56,25 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureUICommon.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureSetAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureBuildHooks.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\KnownFeatureSets.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRLoaderUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureSetManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\PackageSettingsEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\OpenXRPackageSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\OpenXRMangementSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\OpenXRBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\BuildTargetSupport\UWPCoreWindowBuildHooks.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRChooseRuntimeLibraries.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\FeatureHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureUICommon.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureSetAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureBuildHooks.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\KnownFeatureSets.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRLoaderUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureSettingsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\OpenXRRuntimeSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\OpenXRProjectValidationRulesSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\BuildHelperUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\FeatureSupport\OpenXRFeatureSetManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\OpenXREditorSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\PackageSettingsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.openxr@1.5.3\Editor\Unity.XR.OpenXR.Editor.asmdef" />

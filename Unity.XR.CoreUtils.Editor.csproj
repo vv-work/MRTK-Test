@@ -56,22 +56,22 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\GUI\ReadOnlyPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\GUI\EnumDisplayPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\BuildValidator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\XROriginEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\EditorScriptableSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\PackageVersionUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\ProjectValidationSettingsProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\EditorPrefsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ScriptableSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\BuildValidationRule.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\PackageVersion.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\ProjectValidationDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\EditorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\GUI\FlagsPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ScriptableSettingsInitializer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\GUI\ReadOnlyPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\GUI\EnumDisplayPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\XROriginEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\EditorPrefsUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\PackageVersion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\ProjectValidation\ProjectValidationDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.core-utils@2.1.0\Editor\Unity.XR.CoreUtils.Editor.asmdef" />

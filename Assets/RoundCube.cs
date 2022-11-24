@@ -11,81 +11,119 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 
         public int xSize, ySize, zSize;
 
+        [SerializeField]
+        private bool _generateCubeOrMesh;
+
+        private Mesh _originalMash;
+
+    
+        private bool _generateCube;
         private Mesh mesh;
         private Vector3[] vertices;
-        private Coroutine _cycle; 
+        private Coroutine _cycle;
 
-        private void Awake()
-        {
-            Cycle();
-        }
-        private void OnDrawGizmosSelected()
-        {
-            Cycle();
-        }
-
-        private void Cycle()
-        {
-            if (_cycle != null)
-            {
-                _cycle = StartCoroutine(Generate());
-            }
-        }
+        [Range(0.0001f, 0.1f)]
+        [SerializeField]
+        private float delays = 0.05f;
 
 
         private IEnumerator Generate()
         {
-            yield return GenerateCube();    
+            if (_originalMash == null)
+                _originalMash = GetComponent<MeshFilter>().mesh;
+
+            if (_generateCube)
+                yield return GenerateCube();
+            else
+                yield return GenerateMesh();
+        }
+
+        private IEnumerator GenerateMesh()
+        {
+            while (true)
+            {
+                WaitForSeconds wait = new WaitForSeconds(delays);
+
+                vertices = new Vector3[_originalMash.vertexCount + 1];
+                int v = 0;
+                for (int i = 0; i < _originalMash.vertexCount; i++)
+                {
+                    vertices[i++] = _originalMash.vertices[i];
+                    vertices[i++] = _originalMash.vertices[i];
+                }
+
+
+                yield return wait;
+                _cycle = null;
+                yield break;
+            }
         }
 
         private IEnumerator GenerateCube()
         {
-            GetComponent<MeshFilter>().mesh = mesh = new Mesh();
-            mesh.name = "Procedural Cube";
-            WaitForSeconds wait = new WaitForSeconds(0.05f);
-
-            int cornerVertices = 8;
-            int edgeVertices = (xSize + ySize + zSize - 3) * 4;
-            int faceVertices = (
-                (xSize - 1) * (ySize - 1) +
-                (xSize - 1) * (zSize - 1) +
-                (ySize - 1) * (zSize - 1)) * 2;
-            vertices = new Vector3[cornerVertices + edgeVertices + faceVertices];
-            int v = 0;
-            for (int y = 0; y <= ySize; y++)
+            while (true)
             {
+               // GetComponent<MeshFilter>().mesh = mesh = new Mesh();
+                //mesh.name = "Procedural Cube";
+                WaitForSeconds wait = new WaitForSeconds(delays);
 
-                for (int x = 0; x <= xSize; x++)
+                int cornerVertices = 8;
+                int edgeVertices = (xSize + ySize + zSize - 3) * 4;
+                int faceVertices = (
+                    (xSize - 1) * (ySize - 1) +
+                    (xSize - 1) * (zSize - 1) +
+                    (ySize - 1) * (zSize - 1)) * 2;
+                vertices = new Vector3[cornerVertices + edgeVertices + faceVertices];
+                int v = 0;
+                for (int y = 0; y <= ySize; y++)
                 {
-                    vertices[v++] = new Vector3(x, y, 0);
 
+                    for (int x = 0; x <= xSize; x++)
+                    {
+                        vertices[v++] = new Vector3(x, y, 0);
+
+                    }
+
+                    for (int z = 1; z <= zSize; z++)
+                    {
+                        vertices[v++] = new Vector3(xSize, y, z);
+                        yield return wait;
+                    }
+
+                    for (int x = xSize - 1; x >= 0; x--)
+                    {
+                        vertices[v++] = new Vector3(x, 0, zSize);
+                        yield return wait;
+                    }
+
+                    for (int z = zSize - 1; z > 0; z--)
+                    {
+                        vertices[v++] = new Vector3(0, 0, z);
+                        yield return wait;
+                    }
                 }
 
-                for (int z = 1; z <= zSize; z++)
-                {
-                    vertices[v++] = new Vector3(xSize, y, z);
-                    yield return wait;
-                }
 
-                for (int x = xSize - 1; x >= 0; x--)
-                {
-                    vertices[v++] = new Vector3(x, 0, zSize);
-                    yield return wait;
-                }
-
-                for (int z = zSize - 1; z > 0; z--)
-                {
-                    vertices[v++] = new Vector3(0, 0, z);
-                    yield return wait;
-                }
+                yield return wait;
+                _cycle = null;
             }
-
-
-            yield return wait;
         }
 
-        private void OnDrawGizmos()
+        private void OnDrawGizmosSelected()
         {
+            if (_generateCube != _generateCubeOrMesh)
+            {
+                StopCoroutine(Generate());
+                vertices = null;
+                _generateCube = _generateCubeOrMesh;
+                _cycle = null;
+            }
+
+            if (_cycle == null)
+            {
+                _cycle = StartCoroutine(Generate());
+            }
+
             if (vertices == null)
             {
                 return;
@@ -94,8 +132,11 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
             Gizmos.color = Color.black;
             for (int i = 0; i < vertices.Length; i++)
             {
+                if (vertices == null)
+                    break;
                 Gizmos.DrawSphere(vertices[i], 0.1f);
             }
         }
+
     }
 } 

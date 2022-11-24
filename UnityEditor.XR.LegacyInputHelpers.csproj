@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Editor\ArmModels\TransitionArmModelEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Editor\SeedXRInputBindings\SeedXRInputBindings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Editor\ArmModels\SwingArmModelEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Editor\CameraOffsetEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Editor\SeedXRInputBindings\SeedXRInputBindings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Editor\ArmModels\ArmModelEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10\Editor\MenuUtils.cs" />
   </ItemGroup>

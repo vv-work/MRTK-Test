@@ -57,14 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Service\AppBuiltIns.cs" />
+    <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Service\AppVoiceExperience.cs" />
+    <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Bindings\Android\VoiceSDKImpl.cs" />
+    <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Utilities\MicPermissionsManager.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Interfaces\IPlatformVoiceService.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Bindings\Android\VoiceSDKBinding.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Bindings\Android\VoiceSDKListenerBinding.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Service\AppVoiceExperience.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Bindings\Android\VoiceSDKImpl.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Bindings\Android\VoiceSDKConfigBinding.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Bindings\Android\IVCBindingEvents.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Runtime\Utilities\MicPermissionsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\Voice\Scripts\Runtime\VoiceSDK.Runtime.asmdef" />

@@ -57,12 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\ClearUnusedAttributes.cs" />
-    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\SetCustomUnwrapParams.cs" />
-    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\EditorCallbackViewer.cs" />
-    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\SoftDeleteEdgesAction.cs" />
-    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\CreateShadowObject.cs" />
     <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\RenameNewObjects.cs" />
     <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\CustomAction.cs" />
+    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\SoftDeleteEdgesAction.cs" />
+    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\EditorCallbackViewer.cs" />
+    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\SetCustomUnwrapParams.cs" />
+    <Compile Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\CreateShadowObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\ProBuilder\5.0.6\Editor Examples\Unity.ProBuilder.Examples.Editor.asmdef" />
