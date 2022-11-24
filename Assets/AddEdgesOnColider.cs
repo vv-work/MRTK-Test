@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Plawius.NonConvexCollider;
 using Shapes;
 using UnityEngine;
+using UnityEngine.ProBuilder;
 
 [RequireComponent(typeof(NonConvexColliderComponent))]
 [RequireComponent(typeof(Polyline))]
@@ -47,3 +48,10 @@ public class AddEdgesOnColider : MonoBehaviour
     }
 }
 
+public struct Triangle
+{
+    public Vector3 A { get; private set; }
+    public Vector3 B { get; private set; }
+    public Vector3 C { get; private set; }
+
+}
