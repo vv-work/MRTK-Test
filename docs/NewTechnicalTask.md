@@ -70,6 +70,9 @@ I found couple of video tutorials explaining how to do that. But I still need to
 1. [Article Solution](https://alexanderameye.github.io/notes/edge-detection-outlines/)
 2. [More advenced article on URP Outline](https://kyriota.com/2022/08/02/Unity_Pixelated_Art_Style_In_URP/)
 3. [Tree.js solution with intresting live demo](https://omar-shehata.medium.com/how-to-render-outlines-in-webgl-8253c14724f9)
+4. [Article with GBuffer in URP](https://kyriota.com/2022/08/02/Unity_Pixelated_Art_Style_In_URP/)
+5. [ Depth and Z Test on URP](https://www.cyanilux.com/tutorials/depth/)
+6. [ Main article pormises working solution but dosen't work](https://alexanderameye.github.io/notes/edge-detection-outlines/)
 
 
 At this point I still have my finger crossed that using **URP** I will still be able to get access to the debth buffer and normals.
@@ -170,3 +173,10 @@ Quite close to Shapes implementation of the outline
 > 11/30/22 18:36:31
 
 It's 6 minutes the time for a call
+
+
+
+> 11/30/22 22:06:17
+
+I have last 30 minutes to complite.
+Hope I wil be ablet  deliver both
