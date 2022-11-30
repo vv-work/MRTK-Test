@@ -82,3 +82,38 @@ At this point I still have my finger crossed that using **URP** I will still be 
 - [ ] A2 Scene switching build to test on Oculus `17:15`
 
 - [ ] A3 Working HL2 ARM64 build for Randolph `18:00`
+
+I have 30 minutes for implementing shape based solution. 
+
+`EdgeOutlineBaker`
+
+
+What I will need to do ?
+
+#### Crytical
+
+- Go through object's and sub objects and detect Edges.
+
+- Put the Controllable shapesLine collection object incide each object with MeshFilter.
+
+- Controll Outline properties like size color segmentation from the main object.
+
+- Add functionality on lines become thicker and bolder depending on camera distance.
+
+#### NonCrytical 
+
+
+- connect to the MRTK sliders.
+- Create scene switcher. 
+- Test on Quest2 
+
+
+
+> 11/30/22 16:12:44
+
+Going to toilet under 5 min. And then **DEEP FOCUS** to implement **ASAP**.
+
+Will comeback:
+
+1. Visualize the process and show & tell for 5 min.
+2. Start implementing RealQuick.
