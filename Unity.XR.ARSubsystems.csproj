@@ -143,8 +143,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\HumanBodySubsystem\XRHumanBodyPose2DJoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ParticipantSubsystem\XRParticipantSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\CameraSubsystem\XRCameraParams.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\TrackableType.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackableId.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\TrackableType.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\ObjectTrackingSubsystem\XRReferenceObject.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\TrackingSubsystem\TrackingSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arsubsystems@4.2.3\Runtime\RaycastSubsystem\XRRaycast.cs" />
