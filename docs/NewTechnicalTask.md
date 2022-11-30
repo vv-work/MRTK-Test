@@ -152,4 +152,21 @@ And then making build explenation e.t.c.
 
 - `18:30` Make demo build with 3 scenes.
 
-### 
+### First I will use Shapes based solution
+
+
+1. Scaner for Mesh Filters
+
+
+> 11/30/22 17:37:48
+
+
+
+> 11/30/22 18:14:44
+
+Quite close to Shapes implementation of the outline
+
+
+> 11/30/22 18:36:31
+
+It's 6 minutes the time for a call

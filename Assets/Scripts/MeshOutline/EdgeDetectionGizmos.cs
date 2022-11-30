@@ -66,8 +66,8 @@ namespace Assets.Scripts.MeshOutline
                 _meshFilter = GetComponent<MeshFilter>();
 
 
-            var vertices = _meshFilter.mesh.vertices;
-            var normals = _meshFilter.mesh.normals;
+            var vertices = _meshFilter.sharedMesh.vertices;
+            var normals = _meshFilter.sharedMesh.normals;
 
             if (vertices == null)
             {
