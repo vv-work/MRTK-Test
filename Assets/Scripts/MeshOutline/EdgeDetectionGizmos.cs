@@ -1,25 +1,66 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets
+namespace Assets.Scripts.MeshOutline
 {
     [RequireComponent(typeof(MeshFilter))]
-    public class ShowAllEdge : MonoBehaviour
+    public class EdgeDetectionGizmos : MonoBehaviour
     {
+
+
+        [SerializeField]
+        private bool _drawOnlyWhenSelected = false;
+
+        [SerializeField]
+        private bool _drawNormalRays = true;
+
+        [SerializeField]
+        private bool _drawDetectedEdges = true;
 
         [SerializeField]
         [Range(0,5f)] 
         private float _rayDistance=0.2f;
+
         [SerializeField]
         [Range(0,5f)] 
-        private float _radius = 0.01f;
+        private float _radius = 0.03f;
+
+
+        [SerializeField]
+        private Color _verticesColor = Color.yellow;
+
+        [SerializeField]
+        private Color _edgeColor = Color.red;
+
 
         private MeshFilter _meshFilter;
         private Mesh _mesh;
         private Edge[] _edges;
 
         private void OnDrawGizmos()
+        {
+            if (!_drawOnlyWhenSelected)
+            {
+                if (_drawNormalRays)
+                    DrawNormalsRays();
+                if (_drawDetectedEdges)
+                    DrawEdges();
+            }
+
+        }
+
+        private void OnDrawGizmosSelected()
+        {
+            if (_drawOnlyWhenSelected)
+            {
+                if (_drawNormalRays)
+                    DrawNormalsRays();
+                if (_drawDetectedEdges)
+                    DrawEdges();
+            }
+        }
+
+        private void DrawNormalsRays()
         {
             if (_meshFilter == null)
                 _meshFilter = GetComponent<MeshFilter>();
@@ -38,11 +79,11 @@ namespace Assets
                 var pos = vertices[i] + transform.position;
                 Gizmos.color = Color.black;
                 Gizmos.DrawSphere(pos, _radius);
-                Gizmos.color = Color.yellow;
+                Gizmos.color = _verticesColor;
                 Gizmos.DrawRay(pos, normals[i].normalized * _rayDistance);
             }
-
         }
+
         private void  DrawEdges()
         {
 
@@ -61,6 +102,7 @@ namespace Assets
                 var pointA = v[edge.vertexIndex[0]];
                 var pointB = v[edge.vertexIndex[1]];
 
+                Gizmos.color = _edgeColor;
                 Gizmos.DrawLine(pointA+pos,pointB+pos);
             }
         }

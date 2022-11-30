@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using Shapes;
 using UnityEngine;
 
-namespace Assets
+namespace Assets.Scripts.MeshOutline
 {
     [RequireComponent(typeof(MeshFilter))]
     public class EdgeOutlineController : MonoBehaviour
@@ -36,6 +35,18 @@ namespace Assets
 
         private Mesh _mesh;
         private Edge[] _edges;
+
+        //todo: Add button bake
+        //todo: Create Back processor that goes through all child components with Edge Outline.
+        //todo: For each of those child MeshFilters it creates Shapes line Controller and add lines for it if not yet existing.
+        //todo: Register them incide parent class so we can contorol multiple parameters. 
+        /* Parameters to be control
+        1. Mesh Material
+        2. Line thickness
+        3. Line type
+        4. Line color 
+        5. Parameters related to main camera 
+        */
 
         private void OnDrawGizmosSelected()
         {

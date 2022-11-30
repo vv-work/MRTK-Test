@@ -1,10 +1,8 @@
-﻿using System;
-using UnityEngine;
-using System.Collections;
-using Microsoft.MixedReality.Toolkit.UI;
+﻿using System.Collections;
 using Shapes;
+using UnityEngine;
 
-namespace Microsoft.MixedReality.Toolkit.Examples.Demos
+namespace Assets.Scripts.MeshOutline
 {
     [UnityEngine.RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
     public class RoundCube : MonoBehaviour

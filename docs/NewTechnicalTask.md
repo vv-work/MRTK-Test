@@ -115,5 +115,41 @@ Going to toilet under 5 min. And then **DEEP FOCUS** to implement **ASAP**.
 
 Will comeback:
 
-1. Visualize the process and show & tell for 5 min.
-2. Start implementing RealQuick.
+- [x] Visualize the process and show & tell for 5 min.
+- [x] Start implementing RealQuick.
+
+
+
+#### Crytical
+
+- Go through object's and sub objects and detect Edges.
+
+- Put the Controllable shapesLine collection object incide each object with MeshFilter.
+
+- Controll Outline properties like size color segmentation from the main object.
+
+- Add functionality on lines become thicker and bolder depending on camera distance.
+
+
+> 11/30/22 16:56:41
+
+Most of this crytical part is already there.
+
+What are the next steps ?
+
+- Let's focus on the Shapes baked oultine solution.
+
+- Then let's try to import any ready URP solution for Sobel outline.
+
+And then making build explenation e.t.c.
+
+
+
+### Plan
+
+- `17:30` Shapes Outline solution working
+- `18:00` Import any existing working sobel outline solution. into scene.
+
+- `18:30` Make demo build with 3 scenes.
+
+### 
