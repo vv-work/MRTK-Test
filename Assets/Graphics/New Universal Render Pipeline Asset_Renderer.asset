@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7baa20483fa0c1547aa69aee18f9825d, type: 3}
   m_Name: Outline
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     outlineMaterial: {fileID: 2100000, guid: 33dfd148f95709944a0a6c6d244064e4, type: 2}
 --- !u!114 &11400000
@@ -63,7 +63,7 @@ MonoBehaviour:
     failOperation: 0
     zFailOperation: 0
   m_ShadowTransparentReceive: 1
-  m_RenderingMode: 0
+  m_RenderingMode: 1
   m_DepthPrimingMode: 2
   m_CopyDepthMode: 2
   m_AccurateGbufferNormals: 1
@@ -82,4 +82,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2834b4b122925a64fa7635d47950d184, type: 3}
   m_Name: DepthNormalsFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0

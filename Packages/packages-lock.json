@@ -52,6 +52,15 @@
         "com.microsoft.mixedreality.toolkit.foundation": "2.8.2"
       }
     },
+    "com.qhenshaw.rendererfeatures": {
+      "version": "https://github.com/qhenshaw/RendererFeatures.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "12.1.7"
+      },
+      "hash": "f117024a5c76d60906f0c6377acb3e5b66ea3c3f"
+    },
     "com.unity.burst": {
       "version": "1.7.3",
       "depth": 1,
