@@ -180,3 +180,16 @@ It's 6 minutes the time for a call
 
 I have last 30 minutes to complite.
 Hope I wil be ablet  deliver both
+
+
+> 12/02/22 05:20:23
+
+So the soltuion with Shapes is working now I just need a fix a bug with to many outines
+
+
+Here is the time shit:
+
+- 🐸🤢 `06:00` **HL2** Deliver to the Randolph.
+- 🤢 `07:45` Post-Processing footages also deliver to Randolph.
+
+Now I will go to the toilet and plan the devlopment minute by minute
