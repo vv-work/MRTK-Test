@@ -193,3 +193,14 @@ Here is the time shit:
 - 🤢 `07:45` Post-Processing footages also deliver to Randolph.
 
 Now I will go to the toilet and plan the devlopment minute by minute
+
+
+Before starting ritual I need to bring into new Project. 
+URP,Shader Graphi,
+
+Git version Controll.
+Remove unused packges
+
+
+- 🐸🤢 `06:00` **HL2** Deliver to the Randolph.
+- 🤢 `07:45` Post-Processing footages also deliver to Randolph.
